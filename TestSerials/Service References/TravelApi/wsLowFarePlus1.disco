@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://amadeusws.tripxml.com/TripXML/wsLowFarePlus.asmx?wsdl" docRef="http://amadeusws.tripxml.com/TripXML/wsLowFarePlus.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://amadeusws.tripxml.com/TripXML/wsLowFarePlus.asmx" xmlns:q1="http://traveltalk.com/wsLowFarePlus" binding="q1:wsLowFarePlusSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://amadeusws.tripxml.com/TripXML/wsLowFarePlus.asmx" xmlns:q2="http://traveltalk.com/wsLowFarePlus" binding="q2:wsLowFarePlusSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

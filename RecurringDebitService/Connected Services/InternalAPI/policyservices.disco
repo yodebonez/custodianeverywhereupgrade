@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://developers.custodianplc.com.ng/testapi/policyservices.asmx?wsdl" docRef="https://developers.custodianplc.com.ng/testapi/policyservices.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://developers.custodianplc.com.ng/testapi/policyservices.asmx" xmlns:q1="http://Custodianservices.com/" binding="q1:PolicyServicesSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://developers.custodianplc.com.ng/testapi/policyservices.asmx" xmlns:q2="http://Custodianservices.com/" binding="q2:PolicyServicesSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

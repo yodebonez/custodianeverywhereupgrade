@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://us.csp.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="CalWebServiceImplService" targetNamespace="http://us.csp.com/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://154.65.4.197:8091/cal?xsd=1" namespace="http://us.csp.com/" />
+    </xsd:schema>
+  </types>
+  <message name="GetBenefitInfo">
+    <part name="arg0" type="xsd:string" />
+  </message>
+  <message name="GetBenefitInfoResponse">
+    <part name="return" type="tns:pinRequest" />
+  </message>
+  <message name="Exception">
+    <part name="fault" element="tns:Exception" />
+  </message>
+  <portType name="CalWebservice">
+    <operation name="GetBenefitInfo">
+      <input wsam:Action="http://us.csp.com/CalWebservice/GetBenefitInfoRequest" message="tns:GetBenefitInfo" />
+      <output wsam:Action="http://us.csp.com/CalWebservice/GetBenefitInfoResponse" message="tns:GetBenefitInfoResponse" />
+      <fault wsam:Action="http://us.csp.com/CalWebservice/GetBenefitInfo/Fault/Exception" name="Exception" message="tns:Exception" />
+    </operation>
+  </portType>
+  <binding name="CalWebServiceImplPortBinding" type="tns:CalWebservice">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="rpc" />
+    <operation name="GetBenefitInfo">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" namespace="http://us.csp.com/" />
+      </input>
+      <output>
+        <soap:body use="literal" namespace="http://us.csp.com/" />
+      </output>
+      <fault name="Exception">
+        <soap:fault use="literal" name="Exception" namespace="" />
+      </fault>
+    </operation>
+  </binding>
+  <service name="CalWebServiceImplService">
+    <port name="CalWebServiceImplPort" binding="tns:CalWebServiceImplPortBinding">
+      <soap:address location="http://154.65.4.197:8091/cal" />
+    </port>
+  </service>
+</definitions>

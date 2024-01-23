@@ -1,0 +1,17 @@
+[
+  {
+    "image": "https://apitest.custodianplc.com.ng/adds/travel_insurance.jpg",
+    "adaptLink": "adapt://travel",
+    "name": "Travel Insurance"
+  },
+  {
+    "image": "https://apitest.custodianplc.com.ng/adds/motor_insurance.jpg",
+    "adaptLink": "adapt://motor",
+    "name": "Motor Insurance"
+  },
+  {
+    "image": "https://apitest.custodianplc.com.ng/adds/educational_endownment.jpg",
+    "adaptLink": "adapt://entertainment",
+    "name": "Educational Endownment"
+  }
+]

@@ -1,0 +1,866 @@
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\ApplicationInsights.config
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\csc.exe
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\vbc.exe
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll.config
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.XmlSerializers.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\CommonServiceLocator.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\CustodianEmailSMSGateway.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Dapper.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\DapperLayer.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\DataStore.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\EntityFramework.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\GenerateTransactionCodes.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\NLog.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Owin.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Spire.Doc.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Spire.License.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Spire.Pdf.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Helpers.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Http.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Mvc.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Optimization.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Razor.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.WebPages.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.Abstractions.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.Configuration.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.Container.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.Interception.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\WebGrease.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Oracle.DataAccess.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.mshtml.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\DapperLayer.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\DataStore.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\DataStore.dll.config
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\CommonServiceLocator.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Dapper.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\EntityFramework.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\NLog.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Spire.Doc.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Spire.License.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Helpers.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Http.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Mvc.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Optimization.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Razor.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.WebPages.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.Abstractions.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.Configuration.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.Container.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.Interception.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csprojAssemblyReference.cache
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csproj.CopyComplete
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.XmlSerializers.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\DotNetZip.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\DotNetZip.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\CustodianEveryWhereV2.0\bin\DotNetZip.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\ApplicationInsights.config
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\csc.exe
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\vbc.exe
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll.config
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.XmlSerializers.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CommonServiceLocator.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Dapper.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DapperLayer.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\NLog.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Owin.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Doc.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.License.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Pdf.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Helpers.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Mvc.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Optimization.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Razor.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Abstractions.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Configuration.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Container.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\WebGrease.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Oracle.DataAccess.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.mshtml.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DapperLayer.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.dll.config
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CommonServiceLocator.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Dapper.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\NLog.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Doc.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.License.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Helpers.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Mvc.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Optimization.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Razor.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Abstractions.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Configuration.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Container.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.xml
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csprojAssemblyReference.cache
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csproj.CopyComplete
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.dll
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.pdb
+C:\Users\USER\Documents\OfficeProject\CustodianEveryWhere\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.XmlSerializers.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csprojAssemblyReference.cache
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\ApplicationInsights.config
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\csc.exe
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\vbc.exe
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll.config
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.XmlSerializers.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CommonServiceLocator.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Dapper.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DapperLayer.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\NLog.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Owin.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Doc.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.License.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Pdf.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Helpers.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Mvc.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Optimization.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Razor.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Abstractions.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Configuration.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Container.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\WebGrease.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Oracle.DataAccess.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.mshtml.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DapperLayer.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.dll.config
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CommonServiceLocator.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Dapper.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\NLog.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Doc.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.License.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Helpers.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Mvc.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Optimization.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Razor.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Abstractions.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Configuration.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Container.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csproj.CopyComplete
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.XmlSerializers.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Cors.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Cors.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Cors.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\ApplicationInsights.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\csc.exe
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\vbc.exe
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.XmlSerializers.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CommonServiceLocator.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Dapper.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DapperLayer.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\NLog.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Owin.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Doc.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.License.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Pdf.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Cors.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Helpers.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Cors.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Mvc.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Optimization.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Razor.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Abstractions.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Configuration.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Container.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\WebGrease.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Oracle.DataAccess.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.mshtml.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DapperLayer.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.dll.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CommonServiceLocator.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Dapper.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\NLog.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Doc.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.License.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Cors.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Helpers.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Mvc.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Optimization.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Razor.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Abstractions.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Configuration.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Container.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csprojAssemblyReference.cache
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csproj.CopyComplete
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.XmlSerializers.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Swashbuckle.Core.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\WebActivatorEx.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.Core.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.SqlServer.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.Core.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.SqlServer.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\es\Hangfire.Core.resources.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\fa\Hangfire.Core.resources.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\fr\Hangfire.Core.resources.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\nl\Hangfire.Core.resources.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\pt\Hangfire.Core.resources.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\pt-BR\Hangfire.Core.resources.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\pt-PT\Hangfire.Core.resources.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\zh\Hangfire.Core.resources.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\zh-TW\Hangfire.Core.resources.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.Console.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DapperLayer.dll.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.Console.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\ApplicationInsights.config
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\csc.exe
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\vbc.exe
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll.config
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.XmlSerializers.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CommonServiceLocator.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Dapper.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DapperLayer.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.Console.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.Core.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.SqlServer.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\NLog.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Owin.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Doc.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.License.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Pdf.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Swashbuckle.Core.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Cors.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Helpers.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Cors.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Mvc.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Optimization.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Razor.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Abstractions.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Configuration.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Container.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\WebActivatorEx.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\WebGrease.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.mshtml.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DapperLayer.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DapperLayer.dll.config
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DataStore.dll.config
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\CommonServiceLocator.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Dapper.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DotNetZip.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.Console.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.Core.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Hangfire.SqlServer.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\NLog.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.Doc.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Spire.License.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Cors.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Helpers.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Mvc.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Optimization.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Razor.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Abstractions.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Configuration.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Container.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\es\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\fa\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\fr\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\nl\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\pt\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\pt-BR\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\pt-PT\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\zh\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\zh-TW\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csprojAssemblyReference.cache
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csproj.CoreCompileInputs.cache
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csproj.CopyComplete
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.XmlSerializers.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\Oracle.ManagedDataAccess.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\JWT.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\JWT.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\JWT.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DecimalMath.DecimalEx.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\bin\DecimalMath.DecimalEx.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\ApplicationInsights.config
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\csc.exe
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\vbc.exe
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll.config
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.XmlSerializers.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\CustodianEveryWhereV2.0.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\CommonServiceLocator.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Dapper.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\DapperLayer.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\DataStore.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\DotNetZip.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\EntityFramework.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Hangfire.Console.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Hangfire.Core.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Hangfire.SqlServer.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\JWT.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\NLog.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Oracle.ManagedDataAccess.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Owin.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Spire.Doc.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Spire.License.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Spire.Pdf.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Swashbuckle.Core.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Cors.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Helpers.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Http.Cors.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Http.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Mvc.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Optimization.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Razor.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.WebPages.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.Abstractions.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.Configuration.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.Container.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.Interception.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\WebActivatorEx.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\WebGrease.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\DecimalMath.DecimalEx.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.mshtml.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\DapperLayer.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\DapperLayer.dll.config
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\DataStore.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\DataStore.dll.config
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\CommonServiceLocator.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Dapper.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\DotNetZip.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\DotNetZip.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\EntityFramework.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\EntityFramework.SqlServer.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Hangfire.Console.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Hangfire.Core.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Hangfire.SqlServer.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\JWT.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\JWT.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AI.Web.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.ApplicationInsights.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Practices.ServiceLocation.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Newtonsoft.Json.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\NLog.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Spire.Doc.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Spire.License.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Net.Http.Formatting.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Http.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Http.Cors.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Helpers.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Http.WebHost.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Mvc.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Optimization.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Razor.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.WebPages.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Deployment.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.WebPages.Razor.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.Abstractions.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.Configuration.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.Container.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.Interception.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.Interception.Configuration.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.RegistrationByConvention.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Unity.ServiceLocation.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Antlr3.Runtime.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\System.Web.Http.Owin.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\DecimalMath.DecimalEx.xml
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\es\Hangfire.Core.resources.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\fa\Hangfire.Core.resources.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\fr\Hangfire.Core.resources.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\nl\Hangfire.Core.resources.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\pt\Hangfire.Core.resources.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\pt-BR\Hangfire.Core.resources.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\pt-PT\Hangfire.Core.resources.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\zh\Hangfire.Core.resources.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\bin\zh-TW\Hangfire.Core.resources.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csproj.AssemblyReference.cache
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csproj.CoreCompileInputs.cache
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.csproj.CopyComplete
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.dll
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.pdb
+C:\Users\yodeb\Downloads\migrate-api-master (1)\migrate-api-master\CustodianEveryWhereV2.0\obj\Release\CustodianEveryWhereV2.0.XmlSerializers.dll

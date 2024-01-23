@@ -1,0 +1,261 @@
+[
+  {
+    "_class": "A",
+    "days": "1 to 7 days",
+    "category": [
+      {
+        "type": "GOLD",
+        "included_rate": 15.4,
+        "excluded_rate": 13.2
+      },
+      {
+        "type": "SILVER",
+        "included_rate": 13.5,
+        "excluded_rate": 11.6
+      },
+      {
+        "type": "ECONOMY",
+        "included_rate": 9.4,
+        "excluded_rate": 8.0
+      },
+      {
+        "type": "SCHENGHEN",
+        "included_rate": 5.9,
+        "excluded_rate": null
+      },
+      {
+        "type": "MIDDLEANDASIA",
+        "included_rate": 5.9,
+        "excluded_rate": null
+      },
+      {
+        "type": "AFRICA",
+        "included_rate": 6.1,
+        "excluded_rate": null
+      }
+
+    ]
+  },
+  {
+    "_class": "B",
+    "days": "8 to 15 days",
+    "category": [
+      {
+        "type": "GOLD",
+        "included_rate": 22.5,
+        "excluded_rate": 19.3
+      },
+      {
+        "type": "SILVER",
+        "included_rate": 19.7,
+        "excluded_rate": 16.9
+      },
+      {
+        "type": "ECONOMY",
+        "included_rate": 13.7,
+        "excluded_rate": 11.7
+      },
+      {
+        "type": "SCHENGHEN",
+        "included_rate": 8.6,
+        "excluded_rate": null
+      },
+      {
+        "type": "MIDDLEANDASIA",
+        "included_rate": 10.1,
+        "excluded_rate": null
+      },
+      {
+        "type": "AFRICA",
+        "included_rate": 8.9,
+        "excluded_rate": null
+      }
+
+    ]
+  },
+  {
+    "_class": "C",
+    "days": "16 to 32 days",
+    "category": [
+      {
+        "type": "GOLD",
+        "included_rate": 32.7,
+        "excluded_rate": 28.0
+      },
+      {
+        "type": "SILVER",
+        "included_rate": 28.6,
+        "excluded_rate": 24.5
+      },
+      {
+        "type": "ECONOMY",
+        "included_rate": 19.8,
+        "excluded_rate": 17.0
+      },
+      {
+        "type": "SCHENGHEN",
+        "included_rate": 12.5,
+        "excluded_rate": null
+      },
+      {
+        "type": "MIDDLEANDASIA",
+        "included_rate": 14.6,
+        "excluded_rate": null
+      },
+      {
+        "type": "AFRICA",
+        "included_rate": 12.9,
+        "excluded_rate": null
+      }
+
+    ]
+  },
+  {
+    "_class": "D",
+    "days": "33 to 62 days",
+    "category": [
+      {
+        "type": "GOLD",
+        "included_rate": 47.9,
+        "excluded_rate": 41.1
+      },
+      {
+        "type": "SILVER",
+        "included_rate": 42.0,
+        "excluded_rate": 36.0
+      },
+      {
+        "type": "ECONOMY",
+        "included_rate": 29.0,
+        "excluded_rate": 24.9
+      },
+      {
+        "type": "SCHENGHEN",
+        "included_rate": 18.4,
+        "excluded_rate": null
+      },
+      {
+        "type": "MIDDLEANDASIA",
+        "included_rate": 21.4,
+        "excluded_rate": null
+      },
+      {
+        "type": "AFRICA",
+        "included_rate": 18.9,
+        "excluded_rate": null
+      }
+
+    ]
+  },
+  {
+    "_class": "E",
+    "days": "63 to 93 days",
+    "category": [
+      {
+        "type": "GOLD",
+        "included_rate": 59.9,
+        "excluded_rate": 51.4
+      },
+      {
+        "type": "SILVER",
+        "included_rate": 52.5,
+        "excluded_rate": 45.0
+      },
+      {
+        "type": "ECONOMY",
+        "included_rate": 36.3,
+        "excluded_rate": 31.1
+      },
+      {
+        "type": "SCHENGHEN",
+        "included_rate": 23.0,
+        "excluded_rate": null
+      },
+      {
+        "type": "MIDDLEANDASIA",
+        "included_rate": 26.8,
+        "excluded_rate": null
+      },
+      {
+        "type": "AFRICA",
+        "included_rate": 23.6,
+        "excluded_rate": null
+      }
+
+    ]
+  },
+  {
+    "_class": "F",
+    "days": "94 to 180 days",
+    "category": [
+      {
+        "type": "GOLD",
+        "included_rate": 74.9,
+        "excluded_rate": 64.2
+      },
+      {
+        "type": "SILVER",
+        "included_rate": 65.6,
+        "excluded_rate": 56.2
+      },
+      {
+        "type": "ECONOMY",
+        "included_rate": 45.4,
+        "excluded_rate": 38.9
+      },
+      {
+        "type": "SCHENGHEN",
+        "included_rate": 28.7,
+        "excluded_rate": null
+      },
+      {
+        "type": "MIDDLEANDASIA",
+        "included_rate": 33.5,
+        "excluded_rate": null
+      },
+      {
+        "type": "AFRICA",
+        "included_rate": 29.5,
+        "excluded_rate": null
+      }
+
+    ]
+  },
+  {
+    "_class": "G",
+    "days": "181 to 365 days",
+    "category": [
+      {
+        "type": "GOLD",
+        "included_rate": 89.7,
+        "excluded_rate": 76.9
+      },
+      {
+        "type": "SILVER",
+        "included_rate": 78.5,
+        "excluded_rate": 67.3
+      },
+      {
+        "type": "ECONOMY",
+        "included_rate": 54.3,
+        "excluded_rate": 46.6
+      },
+      {
+        "type": "SCHENGHEN",
+        "included_rate": 34.4,
+        "excluded_rate": null
+      },
+      {
+        "type": "MIDDLEANDASIA",
+        "included_rate": 40.1,
+        "excluded_rate": null
+      },
+      {
+        "type": "AFRICA",
+        "included_rate": 35.4,
+        "excluded_rate": null
+      }
+
+    ]
+  }
+]

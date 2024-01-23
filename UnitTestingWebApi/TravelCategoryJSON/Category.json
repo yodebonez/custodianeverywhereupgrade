@@ -1,0 +1,245 @@
+{
+  "benefits": [
+    "Medical transportation",
+    "Escort of a beneficiary who is less than 15 years old",
+    "Cover for emergency medical & hospitalization expenses abroad",
+    "Cover for emergency dental expenses abroad",
+    "Extension of beneficiary's stay",
+    "Travel ticket for a family member (EMERGENCY Visit by a family member in case of hospitalisation)",
+    "Early return in the event of the death of a family member",
+    "Body repatriation in case of death",
+    "Information service if delay in delivering luggages",
+    "Compensation if delays in delivering luggages",
+    "Additionnal compensation if loss of luggage",
+    "Compensation in the event of flight delay",
+    "Administrtive infos service if loss or theft of personnal documents",
+    "Compensation In case of passport theft / Loss",
+    "Lawyer's expenses",
+    "Advance for bail",
+    "Burial, Cremation or Return of Mortal Remains",
+    "Daily Hospital Cash Benefit - Max 10 Days - 1 Day Waiting Period",
+    "Hijack, Hostage or Wrongful Detention Maximum per event",
+    "Accidental Death and PTD",
+    "Passive war and terrorism (Medical Expenses, Transportation/Transfer, repatriation of body / mortal)",
+    "Consular referal, emergency accomodation and travel arrangements",
+    "Journey Cancellation and Curtailment",
+    "Excess for both Cancellation and Curtailment",
+    "Missed Departure",
+    "Personal Liability"
+  ],
+  "category": [
+    {
+      "region": 1,
+      "package": [
+        {
+          "type": "GOLD",
+          "name": "Gold",
+          "values": [
+            "Included in Medex",
+            "1 A/R economy class airline ticket  + 100 USD/night -2 nights maxi +fees qualified escort ",
+            "100,000.00 / $50.00 deductible for outpatient only",
+            "600.00 / $50.00 deductible",
+            "Accomodation - 80 USD Per Night up to 10 Nights",
+            "1 A/R economy class  airline ticket",
+            "2,000.00",
+            "Included in Medex",
+            "Information service",
+            "50 Per 12 Hrs MAX 300",
+            "1000",
+            "50 Per 12 Hrs MAX 300 / 12 hours deductible",
+            "Service only",
+            "Actual direct reproduction costs",
+            "1,500.00",
+            "1,500.00",
+            "5,000.00",
+            "25 per day Max 250",
+            "100 PER DAY MAX 5000",
+            "40,000.00",
+            "Covered",
+            "Service Only",
+            "3,000.00",
+            "100.00",
+            "750.00",
+            "100,000.00"
+          ]
+        },
+        {
+          "type": "SILVER",
+          "name": "Silver",
+          "values": [
+            "Included in Medex",
+            "1 A/R economy class airline ticket  + 100 USD/night -2 nights maxi +fees qualified escort ",
+            "75,000.00 / $50.00 deductible for outpatient only",
+            "400.00 / $50.00 deductible",
+            "Accomodation - 80 USD Per Night up to 10 Nights",
+            "1 A/R economy class  airline ticket",
+            "1,500.00",
+            "Included in Medex",
+            "Information service",
+            "50 Per 12 Hrs MAX 200",
+            "500",
+            "50 Per 12 Hrs MAX 300 / 12 hours deductible",
+            "Service only",
+            "Actual direct reproduction costs",
+            "1,000.00",
+            "1,000.00",
+            "4,000.00",
+            "25 per day Max 150",
+            "100 PER DAY MAX 5000",
+            "30,000.00",
+            "Covered",
+            "Service Only",
+            "2,000.00",
+            "100.00",
+            "500.00",
+            "75,000.00"
+          ]
+        },
+        {
+          "type": "ECONOMY",
+          "name": "Economy",
+          "values": [
+            "Included in Medex",
+            "X",
+            "50,000.00 / $50.00 deductible for outpatient only",
+            "300.00 / $50.00 deductible",
+            "Accomodation - 80 USD Per Night up to 10 Nights",
+            "1 A/R economy class  airline ticket",
+            "1,000.00",
+            "Included in Medex",
+            "Information service",
+            "50 Per 12 Hrs MAX 100",
+            "400",
+            "X",
+            "Service only",
+            "Actual direct reproduction costs",
+            "500.00",
+            "500.00",
+            "3,000.00",
+            "15 per day Max 150",
+            "100 PER DAY MAX 1000",
+            "20,000.00",
+            "Covered",
+            "Service Only",
+            "1,000.00",
+            "100.00",
+            "300.00",
+            "50,000.00"
+          ]
+        }
+      ]
+    },
+    {
+      "region": 2,
+      "package": [
+        {
+          "type": "SCHENGHEN",
+          "name": "Schenghen",
+          "values": [
+            "Included in Medex",
+            "X",
+            "50,000.00 / $50.00 deductible for outpatient only",
+            "X",
+            "X",
+            "X",
+            "X",
+            "Included in Medex",
+            "No Cover",
+            "X",
+            "400",
+            "X",
+            "X",
+            "X",
+            "X",
+            "X",
+            "3,000.00",
+            "X",
+            "X",
+            "X",
+            "X",
+            "Service Only",
+            "X",
+            "No Cover",
+            "X",
+            "X"
+          ]
+        }
+      ]
+    },
+    {
+      "region": 3,
+      "package": [
+        {
+          "type": "MIDDLEANDASIA",
+          "name": "Middle East & Asia",
+          "values": [
+            "Included in Medex",
+            "X",
+            "75,000.00 / $50.00 deductible for outpatient only",
+            "300.00 / $50.00 deductible",
+            "X",
+            "1 A/R economy class  airline ticket",
+            "X",
+            "Included in Medex",
+            "No Cover",
+            "50 Per 12 Hrs MAX 300",
+            "500",
+            "X",
+            "Service only",
+            "Actual direct reproduction costs",
+            "X",
+            "X",
+            "5,000.00",
+            "X",
+            "100 PER DAY MAX 1000",
+            "15,000.00",
+            "X",
+            "Service Only",
+            "1,500.00",
+            "100.00",
+            "X",
+            "50,000.00"
+          ]
+        }
+      ]
+    },
+    {
+      "region": 4,
+      "package": [
+        {
+          "type": "AFRICA",
+          "name": "Africa",
+          "values": [
+            "Included in Medex",
+            "X",
+            "15,000.00 / $50.00 deductible for outpatient only",
+            "100.00 / $50.00 deductible",
+            "X",
+            "X",
+            "500.00",
+            "Included in Medex",
+            "Information Medex",
+            "50 Per 12 Hrs MAX 100",
+            "200",
+            "X",
+            "Service only",
+            "X",
+            "X",
+            "X",
+            "2,000.00",
+            "X",
+            "X",
+            "10,000.00",
+            "X",
+            "X",
+            "500.00",
+            "50.00",
+            "200.00",
+            "10,000.00"
+          ]
+        }
+      ]
+    }
+  ]
+}
+

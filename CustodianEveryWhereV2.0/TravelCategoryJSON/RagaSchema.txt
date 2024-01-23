@@ -1,0 +1,10 @@
+﻿<soapenv:Envelope xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:certificate">
+  <soapenv:Header/>
+  <soapenv:Body>
+    <urn:certificate_service soapenv:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+      <arg xsi:type="urn:certificate_in">
+        #CONTENT#
+      </arg>
+    </urn:certificate_service>
+  </soapenv:Body>
+</soapenv:Envelope>

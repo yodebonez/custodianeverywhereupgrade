@@ -1,0 +1,760 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\ApiTest</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ApplicationInsights.config">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/HelpPage.css">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Api.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ApiGroup.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/CollectionModelDescription.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ComplexTypeModelDescription.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/DictionaryModelDescription.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/EnumTypeModelDescription.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/HelpPageApiModel.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ImageSample.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/InvalidSample.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/KeyValuePairModelDescription.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/ModelDescriptionLink.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Parameters.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/Samples.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/SimpleTypeModelDescription.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/DisplayTemplates/TextSample.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/Index.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Help/ResourceModel.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Shared/_Layout.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/Web.config">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Areas/HelpPage/Views/_ViewStart.cshtml">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>11/01/2019 17:12:18</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>11/01/2019 17:12:18</publishTime>
+    </File>
+    <File Include="bin/ApplicationInsights.config">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="bin/CommonServiceLocator.dll">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/CommonServiceLocator.pdb">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/CustodianEmailSMSGateway.dll">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="bin/CustodianEveryWhereV2.0.dll">
+      <publishTime>11/04/2019 16:10:55</publishTime>
+    </File>
+    <File Include="bin/CustodianEveryWhereV2.0.pdb">
+      <publishTime>11/04/2019 16:10:55</publishTime>
+    </File>
+    <File Include="bin/CustodianEveryWhereV2.0.XmlSerializers.dll">
+      <publishTime>11/04/2019 16:10:56</publishTime>
+    </File>
+    <File Include="bin/Dapper.dll">
+      <publishTime>11/01/2019 17:12:18</publishTime>
+    </File>
+    <File Include="bin/DapperLayer.dll">
+      <publishTime>11/04/2019 16:10:49</publishTime>
+    </File>
+    <File Include="bin/DapperLayer.pdb">
+      <publishTime>11/04/2019 16:10:49</publishTime>
+    </File>
+    <File Include="bin/DataStore.dll">
+      <publishTime>11/04/2019 16:09:44</publishTime>
+    </File>
+    <File Include="bin/DataStore.dll.config">
+      <publishTime>11/01/2019 17:12:12</publishTime>
+    </File>
+    <File Include="bin/DataStore.pdb">
+      <publishTime>11/04/2019 16:09:44</publishTime>
+    </File>
+    <File Include="bin/DotNetZip.dll">
+      <publishTime>11/01/2019 17:12:18</publishTime>
+    </File>
+    <File Include="bin/DotNetZip.pdb">
+      <publishTime>11/01/2019 17:12:18</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>11/01/2019 17:12:19</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>11/01/2019 17:12:19</publishTime>
+    </File>
+    <File Include="bin/GenerateTransactionCodes.dll">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Agent.Intercept.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.DependencyCollector.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.PerfCounterCollector.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.ServerTelemetryChannel.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.Web.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AI.WindowsServer.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.ApplicationInsights.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.EntityFramework.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNet.Identity.Owin.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.mshtml.dll">
+      <publishTime>10/28/2019 19:05:43</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Host.SystemWeb.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Cookies.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Facebook.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Google.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.MicrosoftAccount.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.OAuth.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Owin.Security.Twitter.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.dll">
+      <publishTime>11/01/2019 17:12:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Practices.ServiceLocation.pdb">
+      <publishTime>11/01/2019 17:12:18</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>11/01/2019 17:12:24</publishTime>
+    </File>
+    <File Include="bin/NLog.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Oracle.DataAccess.dll">
+      <publishTime>11/01/2019 17:12:14</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/01/2019 17:12:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/SendGrid.dll">
+      <publishTime>08/15/2017 13:45:08</publishTime>
+    </File>
+    <File Include="bin/Spire.Doc.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Spire.License.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/Spire.Pdf.dll">
+      <publishTime>11/01/2019 17:12:21</publishTime>
+    </File>
+    <File Include="bin/System.Net.Http.Formatting.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.Owin.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Http.WebHost.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/01/2019 17:12:22</publishTime>
+    </File>
+    <File Include="bin/Unity.Abstractions.dll">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.Abstractions.pdb">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.Configuration.dll">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.Configuration.pdb">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.Container.dll">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.Container.pdb">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.Interception.Configuration.dll">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.Interception.Configuration.pdb">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.Interception.dll">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.Interception.pdb">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.RegistrationByConvention.dll">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.RegistrationByConvention.pdb">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.ServiceLocation.dll">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/Unity.ServiceLocation.pdb">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>11/01/2019 17:12:25</publishTime>
+    </File>
+    <File Include="Cert/Adapt.html">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Cert/claims.html">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Cert/config.json">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Cert/Gitnotification.html">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Cert/json.json">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Cert/Notification.html">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Cert/template.rtf">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Cert/templateOneoff.rtf">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>11/01/2019 17:12:07</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>11/01/2019 17:12:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>11/01/2019 17:12:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>11/01/2019 17:12:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>11/01/2019 17:12:09</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>11/01/2019 17:12:09</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="images/adaptlogo.png">
+      <publishTime>11/01/2019 17:12:09</publishTime>
+    </File>
+    <File Include="images/adapt_logo.png">
+      <publishTime>11/01/2019 17:12:09</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/01/2019 17:12:11</publishTime>
+    </File>
+    <File Include="Properties/DataSources/System.Data.DataSet.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/ai.0.22.9-build00167.min.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery-1.10.2.min.map">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.6.2.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/respond.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/respond.min.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Scripts/_references.js">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.ABSMotorInterestResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.ABSNIID.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.BrokerData.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.certificate_out.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.ClaimCount.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Claimfl.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.ClaimRegStatus.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.ClientData.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.CreateLifeClientResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Crm_Birthday.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.CRM_Claims.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.CRM_ClaimsDetail.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.CRM_Dashboard.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.CRM_PolicyDetail.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Crm_PolicyInfo.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Crm_Renewal.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.CRM_Top10Det.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.CRM_TopProduct.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Generating_Claims_Number1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetAnnuityGuaranteePeriodResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetAnnuitypaymentfreqResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetAnnuitypayOutFreqResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetBrokerMotorQuoteResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetClaimStatusResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetClientDetailsResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetConfirmTelResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetContactClaimResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_ActiveCustomersResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_ActivePoliciesResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_AllPoliciesResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_BirthdayResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_BrokerResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_ClaimCountResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_ClaimsDetailResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_ClaimsResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_CustomersResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_DashBoardResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_LapseDetailResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_NIIDDataResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_PolicyDetailResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_PolicyRenewalResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_TobeRenewedResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_Top10Response.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetCRM_TopProductlinesResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetHomeShieldQuoteResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetHouseHolderQuoteResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetLifeCoverTypeResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetlifePolicyBalancesResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetLifeProductCategResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetLifeProductFrequencyResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetLifeProductTypeResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetLifeQuoteResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetLifeQuoteTermResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetMorePolicyDetailsResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetMotorPolicyDetailsResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetMotorQuoteResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetPolicyDetailsResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetPolicyExpiryDateResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetPolicyValidationResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetPPTDetailsResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetSafetyplusQuoteResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetTQproposalNumResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.GetTravelQuoteResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.MorePolicyDetails.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.MotorList.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.NotificationsDetails.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Passing_Broker_HouseHolder_PostSource1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Passing_Broker_Motor_PostSource1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Passing_Broker_Travel_PostSource1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Passing_HomeShield_PostSource1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Passing_Marine_PostSource1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Passing_Motor_PostSource1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Passing_NNPC_Travel_PostSource1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Passing_Payment_PostSource1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Passing_RenewalPayment_PostSource1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Passing_SafetyPlus_PostSource1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.Passing_Travel_PostSource1.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.PolBalances.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.PolExpDate.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.PolicyDet.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.PolValidation.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.PostABSSyncResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.PostClaimsUpdateResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.PostHomeShieldResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.POSTMotorRecResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.POSTNotificationDetResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.PostSafetyPlusResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.PostTQSyncResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.PostTravel2RagaResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.POSTTravelRecResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.SubmitClaimRegisterResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.SubmitPaymentRecordResponse.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Service References/CustodianAPI/CustodianEveryWhereV2._0.CustodianAPI.To_be_renewed.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Views/Home/Index.cshtml">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Web References/RSA/pinRequest.datasource">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Web References/RSA/Reference.map">
+      <publishTime>11/01/2019 17:12:08</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>11/04/2019 11:03:40</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

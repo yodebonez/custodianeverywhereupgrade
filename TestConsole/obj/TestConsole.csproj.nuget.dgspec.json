@@ -1,0 +1,104 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\TestConsole\\TestConsole.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\DataStore\\DataStore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\DataStore\\DataStore.csproj",
+        "projectName": "DataStore",
+        "projectPath": "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\DataStore\\DataStore.csproj"
+      },
+      "frameworks": {
+        "net452": {}
+      }
+    },
+    "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\TestConsole\\TestConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\TestConsole\\TestConsole.csproj",
+        "projectName": "TestConsole",
+        "projectPath": "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\TestConsole\\TestConsole.csproj",
+        "packagesPath": "C:\\Users\\OItaba\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\TestConsole\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\OItaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\WindowsService1\\CronJobsNews.csproj": {
+                "projectPath": "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\WindowsService1\\CronJobsNews.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\WindowsService1\\CronJobsNews.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\WindowsService1\\CronJobsNews.csproj",
+        "projectName": "CronJobsNews",
+        "projectPath": "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\WindowsService1\\CronJobsNews.csproj",
+        "frameworks": {
+          "net452": {
+            "projectReferences": {
+              "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\DataStore\\DataStore.csproj": {
+                "projectPath": "C:\\Users\\OItaba\\Documents\\Visual Studio 2015\\Projects\\CustodianEveryWhereV2.0\\DataStore\\DataStore.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net452": {}
+      }
+    }
+  }
+}

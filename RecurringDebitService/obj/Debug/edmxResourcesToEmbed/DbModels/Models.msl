@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="connectionStr">
+    <EntitySetMapping Name="PaystackRecurringCharges">
+      <EntityTypeMapping TypeName="Model.PaystackRecurringCharge">
+        <MappingFragment StoreEntitySet="PaystackRecurringCharges">
+          <ScalarProperty Name="last_run_date" ColumnName="last_run_date" />
+          <ScalarProperty Name="vehicle_reg" ColumnName="vehicle_reg" />
+          <ScalarProperty Name="subsidiary" ColumnName="subsidiary" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="authorization_code" ColumnName="authorization_code" />
+          <ScalarProperty Name="card_type" ColumnName="card_type" />
+          <ScalarProperty Name="last4" ColumnName="last4" />
+          <ScalarProperty Name="exp_month" ColumnName="exp_month" />
+          <ScalarProperty Name="exp_year" ColumnName="exp_year" />
+          <ScalarProperty Name="bin" ColumnName="bin" />
+          <ScalarProperty Name="bank" ColumnName="bank" />
+          <ScalarProperty Name="channel" ColumnName="channel" />
+          <ScalarProperty Name="signature" ColumnName="signature" />
+          <ScalarProperty Name="reusable" ColumnName="reusable" />
+          <ScalarProperty Name="country_code" ColumnName="country_code" />
+          <ScalarProperty Name="date_added" ColumnName="date_added" />
+          <ScalarProperty Name="is_active" ColumnName="is_active" />
+          <ScalarProperty Name="policy_number" ColumnName="policy_number" />
+          <ScalarProperty Name="product_name" ColumnName="product_name" />
+          <ScalarProperty Name="recurring_freqency" ColumnName="recurring_freqency" />
+          <ScalarProperty Name="customer_email" ColumnName="customer_email" />
+          <ScalarProperty Name="customer_name" ColumnName="customer_name" />
+          <ScalarProperty Name="card_unique_token" ColumnName="card_unique_token" />
+          <ScalarProperty Name="merchant_id" ColumnName="merchant_id" />
+          <ScalarProperty Name="card_cancel_date" ColumnName="card_cancel_date" />
+          <ScalarProperty Name="number_of_attempt_success" ColumnName="number_of_attempt_success" />
+          <ScalarProperty Name="number_of_attempt_failed" ColumnName="number_of_attempt_failed" />
+          <ScalarProperty Name="last_attempt_date" ColumnName="last_attempt_date" />
+          <ScalarProperty Name="reocurrance_state" ColumnName="reocurrance_state" />
+          <ScalarProperty Name="recurring_start_month" ColumnName="recurring_start_month" />
+          <ScalarProperty Name="recurring_end_month" ColumnName="recurring_end_month" />
+          <ScalarProperty Name="Amount" ColumnName="Amount" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PaystackRecurringDumps">
+      <EntityTypeMapping TypeName="Model.PaystackRecurringDump">
+        <MappingFragment StoreEntitySet="PaystackRecurringDump">
+          <ScalarProperty Name="dumpmessage" ColumnName="dumpmessage" />
+          <ScalarProperty Name="dumpstate" ColumnName="dumpstate" />
+          <ScalarProperty Name="dumpdate" ColumnName="dumpdate" />
+          <ScalarProperty Name="paystackrawdump" ColumnName="paystackrawdump" />
+          <ScalarProperty Name="coresystememail" ColumnName="coresystememail" />
+          <ScalarProperty Name="logonemail" ColumnName="logonemail" />
+          <ScalarProperty Name="productname" ColumnName="productname" />
+          <ScalarProperty Name="policynumber" ColumnName="policynumber" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AdaptLeads">
+      <EntityTypeMapping TypeName="Model.AdaptLead">
+        <MappingFragment StoreEntitySet="AdaptLeads">
+          <ScalarProperty Name="createdAt" ColumnName="createdAt" />
+          <ScalarProperty Name="updatedAt" ColumnName="updatedAt" />
+          <ScalarProperty Name="platform" ColumnName="platform" />
+          <ScalarProperty Name="app_version" ColumnName="app_version" />
+          <ScalarProperty Name="fcm_token" ColumnName="fcm_token" />
+          <ScalarProperty Name="UUID" ColumnName="UUID" />
+          <ScalarProperty Name="created_at" ColumnName="created_at" />
+          <ScalarProperty Name="fullname" ColumnName="fullname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

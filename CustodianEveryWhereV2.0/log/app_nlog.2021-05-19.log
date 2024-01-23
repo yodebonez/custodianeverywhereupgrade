@@ -1,0 +1,90 @@
+2021-05-19 17:25:59.4437|ERROR|CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController|String reference not set to an instance of a String.
+Parameter name: s
+2021-05-19 17:25:59.5155|ERROR|CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController|   at System.Text.Encoding.GetBytes(String s)
+   at JWT.Builder.JwtBuilder.<>c.<WithSecret>b__22_0(String s)
+   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()
+   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at JWT.Builder.JwtBuilder.WithSecret(String[] secrets)
+   at CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController.<GenerateJWT>d__9.MoveNext() in C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\Controllers\AuthUserDetailsController.cs:line 407
+2021-05-19 17:25:59.5225|ERROR|CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController|
+2021-05-19 17:33:09.5662|ERROR|CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController|An error occurred while updating the entries. See the inner exception for details.
+2021-05-19 17:33:09.6130|ERROR|CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController|   at DataStore.repository.store`1.<Save>d__8.MoveNext() in C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\DataStore\repository\store.cs:line 112
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController.<GenerateJWT>d__9.MoveNext() in C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\Controllers\AuthUserDetailsController.cs:line 422
+2021-05-19 17:33:09.6130|ERROR|CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController|System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.NotSupportedException: Modifications to tables where a primary key column has property 'StoreGeneratedPattern' set to 'Computed' are not supported. Use 'Identity' pattern instead. Key column: 'id'. Table: 'CodeFirstDatabaseSchema.SessionTokenTracker'.
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateCompiler.BuildSetClauses(DbExpressionBinding target, PropagatorResult row, PropagatorResult originalRow, TableChangeProcessor processor, Boolean insertMode, Dictionary`2& outputIdentifiers, DbExpression& returning, Boolean& rowMustBeTouched)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateCompiler.BuildInsertCommand(PropagatorResult newRow, TableChangeProcessor processor)
+   at System.Data.Entity.Core.Mapping.Update.Internal.TableChangeProcessor.CompileCommands(ChangeNode changeNode, UpdateCompiler compiler)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.TableChangeProcessor.CompileCommands(ChangeNode changeNode, UpdateCompiler compiler)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.<ProduceDynamicCommands>d__a.MoveNext()
+   at System.Linq.Enumerable.<ConcatIterator>d__59`1.MoveNext()
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateCommandOrderer..ctor(IEnumerable`1 commands, UpdateTranslator translator)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ProduceCommands()
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.<UpdateAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStoreAsync>d__39.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<ExecuteAsyncImplementation>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesInternalAsync>d__31.MoveNext()
+2021-05-19 17:37:09.4381|ERROR|CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController|An error occurred while updating the entries. See the inner exception for details.
+2021-05-19 17:37:09.4471|ERROR|CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController|   at DataStore.repository.store`1.<Save>d__8.MoveNext() in C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\DataStore\repository\store.cs:line 112
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController.<GenerateJWT>d__9.MoveNext() in C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\CustodianEveryWhereV2.0\Controllers\AuthUserDetailsController.cs:line 422
+2021-05-19 17:37:09.4471|ERROR|CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController|System.Data.Entity.Core.UpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.NotSupportedException: Modifications to tables where a primary key column has property 'StoreGeneratedPattern' set to 'Computed' are not supported. Use 'Identity' pattern instead. Key column: 'id'. Table: 'CodeFirstDatabaseSchema.SessionTokenTracker'.
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateCompiler.BuildSetClauses(DbExpressionBinding target, PropagatorResult row, PropagatorResult originalRow, TableChangeProcessor processor, Boolean insertMode, Dictionary`2& outputIdentifiers, DbExpression& returning, Boolean& rowMustBeTouched)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateCompiler.BuildInsertCommand(PropagatorResult newRow, TableChangeProcessor processor)
+   at System.Data.Entity.Core.Mapping.Update.Internal.TableChangeProcessor.CompileCommands(ChangeNode changeNode, UpdateCompiler compiler)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.Mapping.Update.Internal.TableChangeProcessor.CompileCommands(ChangeNode changeNode, UpdateCompiler compiler)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.<ProduceDynamicCommands>d__a.MoveNext()
+   at System.Linq.Enumerable.<ConcatIterator>d__59`1.MoveNext()
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateCommandOrderer..ctor(IEnumerable`1 commands, UpdateTranslator translator)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.ProduceCommands()
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.<UpdateAsync>d__0.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<ExecuteInTransactionAsync>d__3d`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStoreAsync>d__39.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<ExecuteAsyncImplementation>d__9`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesInternalAsync>d__31.MoveNext()
+2021-05-19 18:58:27.4785|INFO|CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController|Hash missmatched from request CUST_TEST_000016
+2021-05-19 18:59:30.0498|INFO|CustodianEveryWhereV2._0.Controllers.AuthUserDetailsController|Hash missmatched from request CUST_TEST_000016
+2021-05-19 20:07:43.7590|INFO|CustodianEveryWhereV2._0.Controllers.PolicyServicesController|Hash missmatched from request CUST_TEST_000016
+2021-05-19 21:09:36.8178|INFO|CustodianEveryWhereV2._0.Controllers.PolicyServicesController|Hash missmatched from request CUST_TEST_000016
+2021-05-19 21:10:42.4774|INFO|CustodianEveryWhereV2._0.Controllers.PolicyServicesController|Hash missmatched from request CUST_TEST_000016
+2021-05-19 21:11:31.2546|INFO|CustodianEveryWhereV2._0.Controllers.PolicyServicesController|Hash missmatched from request CUST_TEST_000016
+2021-05-19 21:12:23.5656|INFO|CustodianEveryWhereV2._0.Controllers.PolicyServicesController|Hash missmatched from request CUST_TEST_000016
+2021-05-19 21:13:47.6200|INFO|CustodianEveryWhereV2._0.Controllers.PolicyServicesController|Hash missmatched from request CUST_TEST_000016
+2021-05-19 21:14:39.3982|INFO|CustodianEveryWhereV2._0.Controllers.PolicyServicesController|Hash missmatched from request CUST_TEST_000016
+2021-05-19 21:21:08.3824|INFO|CustodianEveryWhereV2._0.Controllers.PolicyServicesController|Hash missmatched from request CUST_TEST_000016
+2021-05-19 21:22:31.9657|INFO|CustodianEveryWhereV2._0.Controllers.PolicyServicesController|Hash missmatched from request CUST_TEST_000016
+2021-05-19 21:25:56.2747|INFO|CustodianEveryWhereV2._0.Controllers.PolicyServicesController|Hash missmatched from request CUST_TEST_000016

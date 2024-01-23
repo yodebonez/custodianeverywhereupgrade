@@ -1,0 +1,182 @@
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\WindowsService1.exe.config
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\WindowsService1.exe
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\WindowsService1.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Common.Logging.Core.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Common.Logging.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\DataStore.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\EntityFramework.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\NewsAPI.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\NLog.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Quartz.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Spire.Doc.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Oracle.DataAccess.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\CustodianEmailSMSGateway.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\GenerateTransactionCodes.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Spire.Pdf.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Spire.License.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\SendGrid.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Microsoft.mshtml.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\DataStore.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\DataStore.dll.config
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Common.Logging.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Common.Logging.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Common.Logging.Core.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Common.Logging.Core.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\EntityFramework.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\NewsAPI.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\NLog.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Quartz.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Quartz.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Spire.Doc.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\CustodianEmailSMSGateway.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\Spire.License.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\SendGrid.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\bin\Debug\SendGrid.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\obj\Debug\CronJobsNews.csprojAssemblyReference.cache
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\obj\Debug\CronJobsNews.csproj.GenerateResource.cache
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\obj\Debug\CronJobsNews.csproj.CopyComplete
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\obj\Debug\WindowsService1.exe
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\WindowsService1\obj\Debug\WindowsService1.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\WindowsService1.exe.config
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\WindowsService1.exe
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\WindowsService1.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.Core.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\DataStore.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\NewsAPI.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\NLog.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Quartz.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.Doc.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Oracle.DataAccess.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\CustodianEmailSMSGateway.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\GenerateTransactionCodes.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.Pdf.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.License.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Microsoft.mshtml.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\DataStore.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\DataStore.dll.config
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.Core.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.Core.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\NewsAPI.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\NLog.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Quartz.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Quartz.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.Doc.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.License.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\CronJobsNews.csprojAssemblyReference.cache
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\CronJobsNews.csproj.GenerateResource.cache
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\CronJobsNews.csproj.CopyComplete
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\WindowsService1.exe
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\WindowsService1.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\WindowsService1.exe.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\WindowsService1.exe
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\WindowsService1.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.Core.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\DataStore.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\NewsAPI.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\NLog.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Quartz.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.Doc.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Oracle.DataAccess.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\CustodianEmailSMSGateway.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\GenerateTransactionCodes.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.Pdf.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.License.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Microsoft.mshtml.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\DataStore.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\DataStore.dll.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.Core.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.Core.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\NewsAPI.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\NLog.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Quartz.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Quartz.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.Doc.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.License.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\obj\Debug\CronJobsNews.csprojAssemblyReference.cache
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\obj\Debug\CronJobsNews.csproj.GenerateResource.cache
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\obj\Debug\CronJobsNews.csproj.CopyComplete
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\obj\Debug\WindowsService1.exe
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\WindowsService1\obj\Debug\WindowsService1.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\WindowsService1.exe.config
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\WindowsService1.exe
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\WindowsService1.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.Core.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\DataStore.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\NewsAPI.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Newtonsoft.Json.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\NLog.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Quartz.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.Doc.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Oracle.ManagedDataAccess.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Hangfire.Core.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\CustodianEmailSMSGateway.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Hangfire.Console.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\GenerateTransactionCodes.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.Pdf.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.License.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Owin.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Microsoft.mshtml.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\DataStore.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\DataStore.dll.config
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.Core.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Common.Logging.Core.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\NewsAPI.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Newtonsoft.Json.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\NLog.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Quartz.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Quartz.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.Doc.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Hangfire.Core.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Hangfire.Console.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\Spire.License.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\es\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\fa\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\fr\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\nl\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\pt\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\pt-BR\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\pt-PT\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\zh\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\zh-TW\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\CronJobsNews.csprojAssemblyReference.cache
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\WindowsService1.ProjectInstaller.resources
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\CronJobsNews.csproj.GenerateResource.cache
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\CronJobsNews.csproj.CoreCompileInputs.cache
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\CronJobsNews.csproj.CopyComplete
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\WindowsService1.exe
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\obj\Debug\WindowsService1.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\DecimalMath.DecimalEx.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\WindowsService1\bin\Debug\DecimalMath.DecimalEx.xml

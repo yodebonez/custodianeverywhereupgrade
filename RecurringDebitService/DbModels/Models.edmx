@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AdaptLeads">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="email" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="fullname" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="created_at" Type="datetime" Nullable="false" />
+          <Property Name="UUID" Type="nvarchar" MaxLength="200" Nullable="false" />
+          <Property Name="fcm_token" Type="nvarchar(max)" />
+          <Property Name="app_version" Type="nvarchar" MaxLength="50" />
+          <Property Name="platform" Type="nvarchar" MaxLength="50" />
+          <Property Name="updatedAt" Type="datetime" />
+          <Property Name="createdAt" Type="datetime" />
+        </EntityType>
+        <EntityType Name="PaystackRecurringCharges">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="authorization_code" Type="nvarchar(max)" />
+          <Property Name="card_type" Type="nvarchar(max)" />
+          <Property Name="last4" Type="nvarchar(max)" />
+          <Property Name="exp_month" Type="nvarchar(max)" />
+          <Property Name="exp_year" Type="nvarchar(max)" />
+          <Property Name="bin" Type="nvarchar(max)" />
+          <Property Name="bank" Type="nvarchar(max)" />
+          <Property Name="channel" Type="nvarchar(max)" />
+          <Property Name="signature" Type="nvarchar(max)" />
+          <Property Name="reusable" Type="bit" Nullable="false" />
+          <Property Name="country_code" Type="nvarchar(max)" />
+          <Property Name="date_added" Type="datetime" Nullable="false" />
+          <Property Name="is_active" Type="bit" Nullable="false" />
+          <Property Name="policy_number" Type="nvarchar(max)" />
+          <Property Name="product_name" Type="nvarchar(max)" />
+          <Property Name="recurring_freqency" Type="nvarchar(max)" />
+          <Property Name="customer_email" Type="nvarchar(max)" />
+          <Property Name="customer_name" Type="nvarchar(max)" />
+          <Property Name="card_unique_token" Type="nvarchar(max)" />
+          <Property Name="merchant_id" Type="nvarchar(max)" />
+          <Property Name="card_cancel_date" Type="datetime" />
+          <Property Name="number_of_attempt_success" Type="int" Nullable="false" />
+          <Property Name="number_of_attempt_failed" Type="int" Nullable="false" />
+          <Property Name="last_attempt_date" Type="datetime" />
+          <Property Name="reocurrance_state" Type="nvarchar(max)" />
+          <Property Name="recurring_start_month" Type="datetime" Nullable="false" />
+          <Property Name="recurring_end_month" Type="datetime" Nullable="false" />
+          <Property Name="Amount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="subsidiary" Type="nvarchar(max)" />
+          <Property Name="vehicle_reg" Type="nvarchar(max)" />
+          <Property Name="last_run_date" Type="datetime" />
+        </EntityType>
+        <EntityType Name="PaystackRecurringDump">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="policynumber" Type="nvarchar(max)" />
+          <Property Name="productname" Type="nvarchar(max)" />
+          <Property Name="logonemail" Type="nvarchar(max)" />
+          <Property Name="coresystememail" Type="nvarchar(max)" />
+          <Property Name="paystackrawdump" Type="nvarchar(max)" />
+          <Property Name="dumpdate" Type="datetime" Nullable="false" />
+          <Property Name="dumpstate" Type="bit" Nullable="false" />
+          <Property Name="dumpmessage" Type="nvarchar(max)" />
+        </EntityType>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="AdaptLeads" EntityType="Self.AdaptLeads" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PaystackRecurringCharges" EntityType="Self.PaystackRecurringCharges" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PaystackRecurringDump" EntityType="Self.PaystackRecurringDump" Schema="dbo" store:Type="Tables" />
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="PaystackRecurringCharge">
+          <Key>
+            <PropertyRef Name="id" />
+          </Key>
+          <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="authorization_code" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="card_type" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="last4" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="exp_month" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="exp_year" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="bin" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="bank" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="channel" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="signature" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="reusable" Type="Boolean" Nullable="false" />
+          <Property Name="country_code" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="date_added" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="is_active" Type="Boolean" Nullable="false" />
+          <Property Name="policy_number" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="product_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="recurring_freqency" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="customer_email" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="customer_name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="card_unique_token" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="merchant_id" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="card_cancel_date" Type="DateTime" Precision="3" />
+          <Property Name="number_of_attempt_success" Type="Int32" Nullable="false" />
+          <Property Name="number_of_attempt_failed" Type="Int32" Nullable="false" />
+          <Property Name="last_attempt_date" Type="DateTime" Precision="3" />
+          <Property Name="reocurrance_state" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="recurring_start_month" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="recurring_end_month" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="Amount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="subsidiary" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="vehicle_reg" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="last_run_date" Type="DateTime" Precision="3" />
+        </EntityType>
+        <EntityContainer Name="connectionStr" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="PaystackRecurringCharges" EntityType="Self.PaystackRecurringCharge" />
+          <EntitySet Name="PaystackRecurringDumps" EntityType="Model.PaystackRecurringDump" />
+          <EntitySet Name="AdaptLeads" EntityType="Model.AdaptLead" />
+        </EntityContainer>
+        <EntityType Name="PaystackRecurringDump">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="policynumber" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="productname" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="logonemail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="coresystememail" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="paystackrawdump" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="dumpdate" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="dumpstate" Type="Boolean" Nullable="false" />
+          <Property Name="dumpmessage" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="AdaptLead">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="email" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="fullname" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="created_at" Type="DateTime" Nullable="false" Precision="3" />
+          <Property Name="UUID" Type="String" Nullable="false" MaxLength="200" FixedLength="false" Unicode="true" />
+          <Property Name="fcm_token" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="app_version" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="platform" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="updatedAt" Type="DateTime" Precision="3" />
+          <Property Name="createdAt" Type="DateTime" Precision="3" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="connectionStr">
+          <EntitySetMapping Name="PaystackRecurringCharges">
+            <EntityTypeMapping TypeName="Model.PaystackRecurringCharge">
+              <MappingFragment StoreEntitySet="PaystackRecurringCharges">
+                <ScalarProperty Name="last_run_date" ColumnName="last_run_date" />
+                <ScalarProperty Name="vehicle_reg" ColumnName="vehicle_reg" />
+                <ScalarProperty Name="subsidiary" ColumnName="subsidiary" />
+                <ScalarProperty Name="id" ColumnName="id" />
+                <ScalarProperty Name="authorization_code" ColumnName="authorization_code" />
+                <ScalarProperty Name="card_type" ColumnName="card_type" />
+                <ScalarProperty Name="last4" ColumnName="last4" />
+                <ScalarProperty Name="exp_month" ColumnName="exp_month" />
+                <ScalarProperty Name="exp_year" ColumnName="exp_year" />
+                <ScalarProperty Name="bin" ColumnName="bin" />
+                <ScalarProperty Name="bank" ColumnName="bank" />
+                <ScalarProperty Name="channel" ColumnName="channel" />
+                <ScalarProperty Name="signature" ColumnName="signature" />
+                <ScalarProperty Name="reusable" ColumnName="reusable" />
+                <ScalarProperty Name="country_code" ColumnName="country_code" />
+                <ScalarProperty Name="date_added" ColumnName="date_added" />
+                <ScalarProperty Name="is_active" ColumnName="is_active" />
+                <ScalarProperty Name="policy_number" ColumnName="policy_number" />
+                <ScalarProperty Name="product_name" ColumnName="product_name" />
+                <ScalarProperty Name="recurring_freqency" ColumnName="recurring_freqency" />
+                <ScalarProperty Name="customer_email" ColumnName="customer_email" />
+                <ScalarProperty Name="customer_name" ColumnName="customer_name" />
+                <ScalarProperty Name="card_unique_token" ColumnName="card_unique_token" />
+                <ScalarProperty Name="merchant_id" ColumnName="merchant_id" />
+                <ScalarProperty Name="card_cancel_date" ColumnName="card_cancel_date" />
+                <ScalarProperty Name="number_of_attempt_success" ColumnName="number_of_attempt_success" />
+                <ScalarProperty Name="number_of_attempt_failed" ColumnName="number_of_attempt_failed" />
+                <ScalarProperty Name="last_attempt_date" ColumnName="last_attempt_date" />
+                <ScalarProperty Name="reocurrance_state" ColumnName="reocurrance_state" />
+                <ScalarProperty Name="recurring_start_month" ColumnName="recurring_start_month" />
+                <ScalarProperty Name="recurring_end_month" ColumnName="recurring_end_month" />
+                <ScalarProperty Name="Amount" ColumnName="Amount" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PaystackRecurringDumps">
+            <EntityTypeMapping TypeName="Model.PaystackRecurringDump">
+              <MappingFragment StoreEntitySet="PaystackRecurringDump">
+                <ScalarProperty Name="dumpmessage" ColumnName="dumpmessage" />
+                <ScalarProperty Name="dumpstate" ColumnName="dumpstate" />
+                <ScalarProperty Name="dumpdate" ColumnName="dumpdate" />
+                <ScalarProperty Name="paystackrawdump" ColumnName="paystackrawdump" />
+                <ScalarProperty Name="coresystememail" ColumnName="coresystememail" />
+                <ScalarProperty Name="logonemail" ColumnName="logonemail" />
+                <ScalarProperty Name="productname" ColumnName="productname" />
+                <ScalarProperty Name="policynumber" ColumnName="policynumber" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="AdaptLeads">
+            <EntityTypeMapping TypeName="Model.AdaptLead">
+              <MappingFragment StoreEntitySet="AdaptLeads">
+                <ScalarProperty Name="createdAt" ColumnName="createdAt" />
+                <ScalarProperty Name="updatedAt" ColumnName="updatedAt" />
+                <ScalarProperty Name="platform" ColumnName="platform" />
+                <ScalarProperty Name="app_version" ColumnName="app_version" />
+                <ScalarProperty Name="fcm_token" ColumnName="fcm_token" />
+                <ScalarProperty Name="UUID" ColumnName="UUID" />
+                <ScalarProperty Name="created_at" ColumnName="created_at" />
+                <ScalarProperty Name="fullname" ColumnName="fullname" />
+                <ScalarProperty Name="email" ColumnName="email" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

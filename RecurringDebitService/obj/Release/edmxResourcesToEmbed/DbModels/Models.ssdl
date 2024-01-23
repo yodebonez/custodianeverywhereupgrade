@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AdaptLeads">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="email" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="fullname" Type="nvarchar" MaxLength="100" Nullable="false" />
+    <Property Name="created_at" Type="datetime" Nullable="false" />
+    <Property Name="UUID" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="fcm_token" Type="nvarchar(max)" />
+    <Property Name="app_version" Type="nvarchar" MaxLength="50" />
+    <Property Name="platform" Type="nvarchar" MaxLength="50" />
+    <Property Name="updatedAt" Type="datetime" />
+    <Property Name="createdAt" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PaystackRecurringCharges">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="authorization_code" Type="nvarchar(max)" />
+    <Property Name="card_type" Type="nvarchar(max)" />
+    <Property Name="last4" Type="nvarchar(max)" />
+    <Property Name="exp_month" Type="nvarchar(max)" />
+    <Property Name="exp_year" Type="nvarchar(max)" />
+    <Property Name="bin" Type="nvarchar(max)" />
+    <Property Name="bank" Type="nvarchar(max)" />
+    <Property Name="channel" Type="nvarchar(max)" />
+    <Property Name="signature" Type="nvarchar(max)" />
+    <Property Name="reusable" Type="bit" Nullable="false" />
+    <Property Name="country_code" Type="nvarchar(max)" />
+    <Property Name="date_added" Type="datetime" Nullable="false" />
+    <Property Name="is_active" Type="bit" Nullable="false" />
+    <Property Name="policy_number" Type="nvarchar(max)" />
+    <Property Name="product_name" Type="nvarchar(max)" />
+    <Property Name="recurring_freqency" Type="nvarchar(max)" />
+    <Property Name="customer_email" Type="nvarchar(max)" />
+    <Property Name="customer_name" Type="nvarchar(max)" />
+    <Property Name="card_unique_token" Type="nvarchar(max)" />
+    <Property Name="merchant_id" Type="nvarchar(max)" />
+    <Property Name="card_cancel_date" Type="datetime" />
+    <Property Name="number_of_attempt_success" Type="int" Nullable="false" />
+    <Property Name="number_of_attempt_failed" Type="int" Nullable="false" />
+    <Property Name="last_attempt_date" Type="datetime" />
+    <Property Name="reocurrance_state" Type="nvarchar(max)" />
+    <Property Name="recurring_start_month" Type="datetime" Nullable="false" />
+    <Property Name="recurring_end_month" Type="datetime" Nullable="false" />
+    <Property Name="Amount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="subsidiary" Type="nvarchar(max)" />
+    <Property Name="vehicle_reg" Type="nvarchar(max)" />
+    <Property Name="last_run_date" Type="datetime" />
+  </EntityType>
+  <EntityType Name="PaystackRecurringDump">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="policynumber" Type="nvarchar(max)" />
+    <Property Name="productname" Type="nvarchar(max)" />
+    <Property Name="logonemail" Type="nvarchar(max)" />
+    <Property Name="coresystememail" Type="nvarchar(max)" />
+    <Property Name="paystackrawdump" Type="nvarchar(max)" />
+    <Property Name="dumpdate" Type="datetime" Nullable="false" />
+    <Property Name="dumpstate" Type="bit" Nullable="false" />
+    <Property Name="dumpmessage" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="AdaptLeads" EntityType="Self.AdaptLeads" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PaystackRecurringCharges" EntityType="Self.PaystackRecurringCharges" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="PaystackRecurringDump" EntityType="Self.PaystackRecurringDump" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

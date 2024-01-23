@@ -1,0 +1,33 @@
+{
+  "productDescription": {
+    "sectionName": "Description",
+    "order": "paragraph",
+    "values": [
+      "The Custodian WealthPlus Plan is a policy designed to help you create and accumulate wealth by combining the features of Insurance and savings to meet your unique financial needs and lifestyle",
+      "The policy takes care of your immediate and future financial needs or goals by periodically providing you access to funds at intervals, whilst still saving for the future. The policy also provides you with a life insurance cover to secure the future of your loved ones in the event of the unexpected."
+    ]
+  },
+  "features": {
+    "sectionName": "Features",
+    "order": "bullet",
+    "values": [
+      "Payment mode can be monthly, quarterly, biannual and annual",
+      "Minimum and maximum age at entry are 18 and 60, respectively",
+      "Minimum policy duration is 5 years",
+      "Maturity value can be paid as a lump sum or in instalments",
+      "Annual Partial Withdrawal allows you access to funds after two years (optional)",
+      "Provides life assurance protection."
+    ]
+  },
+  "benefits": {
+    "sectionName": "Benefits",
+    "order": "bullet",
+    "values": [
+      "Flexibility. Allows for partial withdrawal (after two years)",
+      "A target savings device which can be used to finance short and long term projects, e.g. car or house purchase.",
+      "Provides combined benefits of life assurance cover while you create wealth",
+      "Provides immediate payouts in case of unfortunate events such as death/medical emergencie",
+      "The policy qualifies you for tax relief."
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "app_update": true,
+  "android": "https://play.google.com/store/apps/details?id=com.adapt",
+  "ios": "https://apps.apple.com/ng/app/adapt-by-custodian/id1462055451",
+  "android_version": "1.0.7",
+  "ios_version": "1.0.7",
+  "ios_updates": "- Bug fixes|- Deeplinking included|- Some other features has been added",
+  "android_updates": "- Bug fixes|- Deeplinking included|- Some other features has been added",
+  "ios_is_major": true,
+  "android_is_major": true
+}

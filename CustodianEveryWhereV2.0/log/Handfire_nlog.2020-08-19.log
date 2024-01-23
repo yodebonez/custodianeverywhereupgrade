@@ -1,0 +1,770 @@
+2020-08-19 17:31:10.7422|INFO|Hangfire.SqlServer.SqlServerObjectsInstaller|Start installing Hangfire SQL objects...
+2020-08-19 17:31:13.2849|INFO|Hangfire.SqlServer.SqlServerObjectsInstaller|Hangfire SQL objects installed.
+2020-08-19 17:31:13.3309|INFO|Hangfire.BackgroundJobServer|Starting Hangfire Server using job storage: 'SQL Server: 18.216.139.29@CustodianEveryWhereV2.0'
+2020-08-19 17:31:13.3309|INFO|Hangfire.BackgroundJobServer|Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+2020-08-19 17:31:13.3329|INFO|Hangfire.BackgroundJobServer|Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2020-08-19 17:31:13.3768|DEBUG|Hangfire.Server.AspNetShutdownDetector|HostingEnvironment.StopListening shutdown trigger initialized successfully.
+2020-08-19 17:31:13.3768|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop BackgroundServerProcess:0b2cdb65 has started in 12.0182 ms
+2020-08-19 17:31:13.3768|DEBUG|Hangfire.Server.AspNetShutdownDetector|HostingEnvironment.ShutdownReason shutdown trigger initialized successfully.
+2020-08-19 17:31:13.9895|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:20988:0e2cc535 successfully announced in 598.638 ms
+2020-08-19 17:31:13.9895|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerHeartbeatProcess:2a7f3487 has started in 5.6082 ms
+2020-08-19 17:31:13.9895|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:20988:0e2cc535 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-08-19 17:31:14.0105|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerWatchdog:3979f78f has started in 7.7137 ms
+2020-08-19 17:31:14.0105|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerJobCancellationWatcher:f3494860 has started in 11.7456 ms
+2020-08-19 17:31:14.0245|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:45fefa59 has started in 9.5514 ms
+2020-08-19 17:31:14.0245|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop CountersAggregator:99b3e4e5 has started in 7.5105 ms
+2020-08-19 17:31:14.0245|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'AggregatedCounter' table...
+2020-08-19 17:31:14.0245|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 17:31:14.0395|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:c8bc30df has started in 13.83 ms
+2020-08-19 17:31:14.0395|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:a5053607 has started in 16.1621 ms
+2020-08-19 17:31:14.0395|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:54776368 has started in 20.319 ms
+2020-08-19 17:31:14.0525|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:a11e7bff has started in 27.2057 ms
+2020-08-19 17:31:14.0525|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:2faa9e34 has started in 32.2866 ms
+2020-08-19 17:31:14.0525|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:8faec744 has started in 36.128 ms
+2020-08-19 17:31:14.0525|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:f16bea06 has started in 40.8949 ms
+2020-08-19 17:31:14.0714|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:5eac14ec has started in 46.0914 ms
+2020-08-19 17:31:14.0714|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:3374ea2a has started in 48.8823 ms
+2020-08-19 17:31:14.0714|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:e4d1fb04 has started in 53.5741 ms
+2020-08-19 17:31:14.0834|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:6fd96103 has started in 57.5272 ms
+2020-08-19 17:31:14.0834|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:1b4925a3 has started in 64.1497 ms
+2020-08-19 17:31:14.0834|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:ff487fd1 has started in 67.9896 ms
+2020-08-19 17:31:14.0834|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:598c0d9c has started in 71.474 ms
+2020-08-19 17:31:14.1024|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:075ea905 has started in 76.9384 ms
+2020-08-19 17:31:14.1024|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:d120d466 has started in 81.042 ms
+2020-08-19 17:31:14.1024|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:7b35b30c has started in 83.495 ms
+2020-08-19 17:31:14.1144|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:821f2f5d has started in 88.5652 ms
+2020-08-19 17:31:14.1144|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:149424b6 has started in 94.1733 ms
+2020-08-19 17:31:14.1144|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:b8014588 has started in 97.6062 ms
+2020-08-19 17:31:14.1144|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop DelayedJobScheduler:7e29b24e has started in 12.2922 ms
+2020-08-19 17:31:14.1144|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:20988:0e2cc535 all the dispatchers started
+2020-08-19 17:31:14.1304|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop RecurringJobScheduler:30f38b13 has started in 11.1698 ms
+2020-08-19 17:31:14.2613|INFO|Hangfire.Server.ServerWatchdog|1 servers were removed due to timeout
+2020-08-19 17:31:15.1570|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Job' table...
+2020-08-19 17:31:17.6748|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'List' table...
+2020-08-19 17:31:18.5853|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Set' table...
+2020-08-19 17:31:19.5667|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Hash' table...
+2020-08-19 17:31:27.5661|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:31:44.2624|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:32:14.5451|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:32:21.8223|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:32:44.7895|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:33:15.0365|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:33:15.6302|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:33:45.2907|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:34:09.3738|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:34:15.5705|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:34:45.8332|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:35:16.0761|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:35:18.8633|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:35:46.3165|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:36:12.6695|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:36:14.5904|INFO|Hangfire.Server.ServerWatchdog|1 servers were removed due to timeout
+2020-08-19 17:36:16.1855|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 17:36:16.5653|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:36:46.8306|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:37:06.5268|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:37:17.0803|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:37:47.4949|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:38:16.2256|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:38:17.7364|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:38:47.9899|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:39:09.8434|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:39:18.2395|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:39:48.5488|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:40:18.8080|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:40:19.9446|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:40:49.1122|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:41:13.6963|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:41:16.4663|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 17:41:19.4219|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:41:49.6792|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:42:07.9034|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:42:19.9317|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:42:50.1892|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:43:17.6249|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:43:20.4355|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:43:50.6855|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:44:11.3572|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:44:20.9789|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:44:51.2581|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:45:20.8631|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:45:21.5018|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:45:51.7495|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:46:14.3226|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:46:16.7174|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 17:46:21.9952|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:46:52.2629|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:47:08.3717|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:47:22.5076|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:47:52.7922|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:48:17.8529|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:48:23.1099|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:48:53.3615|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:49:12.8104|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:49:23.6082|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:49:53.8559|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:50:06.6620|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:50:24.1206|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:50:54.3644|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:51:16.1766|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:51:17.0273|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 17:51:24.6248|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:51:54.9279|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:52:09.7399|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:52:25.1832|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:52:55.4265|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:53:19.7014|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:53:25.6730|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:53:55.9229|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:54:13.8223|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:54:26.1795|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:54:56.4855|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:55:08.0118|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:55:26.7847|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:55:57.0530|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:56:17.2870|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 17:56:17.3699|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:56:27.3614|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:56:57.6597|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:57:11.2146|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:57:27.9073|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:57:58.1631|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:58:21.5667|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:58:28.4582|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:58:58.7178|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:59:15.3299|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 17:59:28.9657|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 17:59:59.2132|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:00:09.0219|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:00:29.4878|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:00:59.7298|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:01:17.5469|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:01:18.6673|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:01:20.5547|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'AggregatedCounter' table...
+2020-08-19 18:01:21.3364|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Job' table...
+2020-08-19 18:01:22.0799|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'List' table...
+2020-08-19 18:01:22.8666|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Set' table...
+2020-08-19 18:01:23.5932|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Hash' table...
+2020-08-19 18:01:29.9738|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:02:00.2182|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:02:12.6901|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:02:30.4861|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:03:00.7369|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:03:06.3330|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:03:31.1741|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:04:01.4239|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:04:15.8090|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:04:31.6638|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:05:01.9128|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:05:09.6850|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:05:32.2162|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:06:02.4714|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:06:17.7944|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:06:19.1717|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:06:32.7214|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:07:03.0371|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:07:12.7771|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:07:33.2958|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:08:03.5341|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:08:06.5939|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:08:33.7808|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:09:04.0467|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:09:16.1253|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:09:34.2925|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:10:04.5403|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:10:10.3839|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:10:34.7870|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:11:05.0358|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:11:18.0766|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:11:20.6421|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:11:35.2871|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:12:05.6017|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:12:14.1326|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:12:35.8969|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:13:06.1385|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:13:08.1576|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:13:36.3867|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:14:06.6331|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:14:17.7893|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:14:36.8829|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:15:07.1259|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:15:11.4930|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:15:37.5565|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:16:07.8150|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:16:18.3404|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:16:21.4925|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:16:38.0734|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:17:08.3254|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:17:15.5997|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:17:38.6013|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:18:08.8483|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:18:09.2560|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:18:39.0914|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:19:09.3961|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:19:18.8737|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:19:39.6499|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:20:09.9036|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:20:12.8929|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:20:40.1956|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:21:07.7822|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:21:10.4741|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:21:18.6173|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:21:40.7211|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:22:10.9971|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:22:17.0977|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:22:41.2424|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:23:11.0996|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:23:11.5014|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:23:41.7454|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:24:12.1116|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:24:22.2302|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:24:42.3572|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:25:13.1698|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:25:16.2400|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:25:43.4194|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:26:12.3339|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:26:13.7271|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:26:18.8632|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:26:43.9909|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:27:11.2678|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:27:14.2287|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:27:44.4727|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:28:14.7540|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:28:20.9480|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:28:44.9969|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:29:15.0876|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:29:15.2595|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:29:45.5021|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:30:08.9489|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:30:15.7469|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:30:45.9917|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:31:16.3005|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:31:18.5387|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:31:19.1763|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:31:24.3860|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'AggregatedCounter' table...
+2020-08-19 18:31:25.2627|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Job' table...
+2020-08-19 18:31:26.0133|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'List' table...
+2020-08-19 18:31:26.7621|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Set' table...
+2020-08-19 18:31:27.8768|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Hash' table...
+2020-08-19 18:31:46.6045|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:32:12.3407|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:32:16.8457|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:32:47.0944|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:33:17.3453|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:33:21.8561|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:33:47.5959|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:34:15.4919|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:34:17.8533|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:34:48.1103|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:35:09.1176|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:35:18.4358|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:35:48.6855|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:36:18.5102|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:36:18.9349|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:36:19.4277|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:36:49.1801|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:37:12.4662|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:37:19.4320|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:37:49.6783|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:38:06.7556|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:38:20.0113|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:38:50.2890|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:39:18.5633|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:39:20.5374|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:39:50.7822|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:40:12.2067|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:40:21.0319|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:40:51.2792|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:41:19.6844|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:41:21.5363|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:41:22.0160|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:41:51.7925|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:42:16.5146|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:42:22.1009|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:42:52.3584|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:43:10.1531|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:43:22.6148|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:43:52.8697|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:44:19.3907|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:44:23.1153|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:44:53.3697|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:45:13.3405|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:45:23.6620|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:45:54.0466|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:46:06.9995|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:46:19.9363|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:46:24.2915|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:46:54.5949|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:47:16.5769|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:47:24.8350|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:47:55.1034|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:48:10.1904|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:48:25.4128|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:48:55.7070|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:49:19.6648|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:49:25.9546|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:49:56.2067|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:50:14.7087|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:50:26.4663|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:50:56.7344|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:51:08.6233|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:51:20.2034|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:51:26.9794|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:51:57.2416|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:52:18.4363|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:52:27.5464|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:52:57.8146|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:53:12.2024|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:53:28.0549|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:53:58.8916|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:54:21.7296|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:54:29.1519|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:54:59.3992|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:55:15.3408|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:55:29.6608|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:55:59.9102|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:56:09.0671|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:56:20.4646|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 18:56:30.1520|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:57:00.4083|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:57:18.5943|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:57:30.7131|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:58:01.0015|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:58:13.0809|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:58:31.2570|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:59:01.5747|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 18:59:06.9359|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 18:59:31.8634|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:00:02.1095|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:00:16.4373|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:00:32.3555|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:01:02.6532|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:01:10.2394|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:01:20.7068|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 19:01:28.7224|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'AggregatedCounter' table...
+2020-08-19 19:01:29.4849|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Job' table...
+2020-08-19 19:01:30.3304|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'List' table...
+2020-08-19 19:01:31.0650|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Set' table...
+2020-08-19 19:01:31.8676|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Hash' table...
+2020-08-19 19:01:32.9082|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:02:03.1559|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:02:19.7756|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:02:33.4065|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:03:03.6971|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:03:13.5422|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:03:34.8749|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:04:05.1510|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:04:09.4385|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:04:35.4145|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:05:05.7461|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:05:19.2219|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:05:36.0110|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:06:06.2643|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:06:12.8021|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:06:20.9654|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 19:06:36.5072|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:07:06.3610|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:07:06.7518|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:07:37.0731|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:08:07.3250|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:08:16.1554|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:08:37.5899|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:09:07.8788|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:09:10.1255|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:09:38.1247|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:10:08.5640|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:10:19.6588|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:10:38.8061|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:11:09.0593|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:11:13.5640|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:11:21.2596|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 19:11:39.3581|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:12:08.3767|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:12:09.6851|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:12:39.9362|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:13:10.2390|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:13:17.5461|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:13:40.5030|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:14:10.7473|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:14:11.2140|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:14:40.9958|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:15:11.2558|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:15:20.8594|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:15:41.5057|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:16:11.7647|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:16:14.8803|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:16:21.5140|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 19:16:42.1750|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:17:08.9823|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:17:12.4231|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:17:42.6679|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:18:12.9323|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:18:18.4181|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:18:43.2232|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:19:12.1321|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:19:13.4826|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:19:43.7230|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:20:13.9632|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:20:22.7051|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:20:44.2100|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:21:14.4581|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:21:16.7488|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:21:21.7833|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 19:21:44.9193|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:22:10.3646|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:22:15.1706|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:22:45.4240|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:23:15.6683|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:23:19.7172|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:23:45.9476|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:24:13.9662|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:24:16.1873|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:24:46.4336|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:25:08.0049|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:25:16.6912|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:25:46.9547|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:26:17.1988|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:26:18.1263|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:26:22.0428|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 19:26:47.6032|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:27:12.1015|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:27:17.8465|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:27:48.0893|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:28:19.3651|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:28:21.7677|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:28:49.6099|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:29:15.6619|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:29:19.8575|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:29:50.1492|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:30:11.3332|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:30:20.4100|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:30:50.6672|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:31:20.9705|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:31:21.0074|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:31:22.2966|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 19:31:32.6585|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'AggregatedCounter' table...
+2020-08-19 19:31:33.3944|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Job' table...
+2020-08-19 19:31:34.1242|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'List' table...
+2020-08-19 19:31:34.9189|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Set' table...
+2020-08-19 19:31:35.7506|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Hash' table...
+2020-08-19 19:31:51.2466|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:32:14.7356|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:32:21.5565|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:32:51.8453|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:33:08.6659|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:33:22.0934|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:33:52.3507|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:34:17.9391|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:34:22.5915|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:34:52.8370|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:35:11.6603|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:35:23.0821|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:35:53.3808|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:36:21.5478|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:36:22.5686|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 19:36:23.7215|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:36:53.9716|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:37:15.2065|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 19:37:24.2521|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:37:54.5641|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:20988:0e2cc535 heartbeat successfully sent
+2020-08-19 19:59:15.9412|INFO|Hangfire.SqlServer.SqlServerObjectsInstaller|Start installing Hangfire SQL objects...
+2020-08-19 19:59:18.4036|INFO|Hangfire.SqlServer.SqlServerObjectsInstaller|Hangfire SQL objects installed.
+2020-08-19 19:59:18.4856|INFO|Hangfire.BackgroundJobServer|Starting Hangfire Server using job storage: 'SQL Server: 18.216.139.29@CustodianEveryWhereV2.0'
+2020-08-19 19:59:18.4856|INFO|Hangfire.BackgroundJobServer|Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+2020-08-19 19:59:18.4856|INFO|Hangfire.BackgroundJobServer|Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2020-08-19 19:59:18.5405|DEBUG|Hangfire.Server.AspNetShutdownDetector|HostingEnvironment.StopListening shutdown trigger initialized successfully.
+2020-08-19 19:59:18.5405|DEBUG|Hangfire.Server.AspNetShutdownDetector|HostingEnvironment.ShutdownReason shutdown trigger initialized successfully.
+2020-08-19 19:59:18.5405|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop BackgroundServerProcess:117f20ab has started in 13.0229 ms
+2020-08-19 19:59:20.2407|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:15588:6f7f345d successfully announced in 1681.8669 ms
+2020-08-19 19:59:20.2407|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:15588:6f7f345d is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-08-19 19:59:20.2407|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerHeartbeatProcess:e24cca40 has started in 4.9732 ms
+2020-08-19 19:59:20.2407|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerWatchdog:b3281558 has started in 5.2307 ms
+2020-08-19 19:59:20.2577|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerJobCancellationWatcher:281c8652 has started in 7.5616 ms
+2020-08-19 19:59:20.2577|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:8ac804cd has started in 5.7432 ms
+2020-08-19 19:59:20.2577|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'AggregatedCounter' table...
+2020-08-19 19:59:20.2727|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop CountersAggregator:e4bfad47 has started in 10.8769 ms
+2020-08-19 19:59:20.2727|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:6e33b310 has started in 9.3346 ms
+2020-08-19 19:59:20.2727|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 19:59:20.2727|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:9e377a76 has started in 15.3516 ms
+2020-08-19 19:59:20.2886|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:84b874e0 has started in 22.1529 ms
+2020-08-19 19:59:20.2886|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:63b3d656 has started in 29.5861 ms
+2020-08-19 19:59:20.2886|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:c41843d9 has started in 33.9894 ms
+2020-08-19 19:59:20.3056|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:71ecf592 has started in 39.8288 ms
+2020-08-19 19:59:20.3056|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:b847bb03 has started in 42.3681 ms
+2020-08-19 19:59:20.3056|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:9dfc83b7 has started in 46.9433 ms
+2020-08-19 19:59:20.3056|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:153d9879 has started in 50.7258 ms
+2020-08-19 19:59:20.3206|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:5a9addf1 has started in 54.8373 ms
+2020-08-19 19:59:20.3206|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:60d4d82b has started in 58.2619 ms
+2020-08-19 19:59:20.3206|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:c402df65 has started in 61.2753 ms
+2020-08-19 19:59:20.3206|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:688e2254 has started in 65.6856 ms
+2020-08-19 19:59:20.3356|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:3c3d0b32 has started in 69.108 ms
+2020-08-19 19:59:20.3356|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:a7daae18 has started in 75.4695 ms
+2020-08-19 19:59:20.3356|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:7e09ca4f has started in 81.7572 ms
+2020-08-19 19:59:20.3356|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:705f4f9b has started in 81.7979 ms
+2020-08-19 19:59:20.3506|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:1c47579b has started in 84.8589 ms
+2020-08-19 19:59:20.3506|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:071a5ee6 has started in 91.2419 ms
+2020-08-19 19:59:20.3506|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:06d95381 has started in 96.1577 ms
+2020-08-19 19:59:20.3646|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:15588:6f7f345d all the dispatchers started
+2020-08-19 19:59:20.3646|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop DelayedJobScheduler:ab6e5686 has started in 14.7608 ms
+2020-08-19 19:59:20.3646|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop RecurringJobScheduler:7e00585b has started in 13.6962 ms
+2020-08-19 19:59:20.5075|INFO|Hangfire.Server.ServerWatchdog|1 servers were removed due to timeout
+2020-08-19 19:59:21.5194|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Job' table...
+2020-08-19 19:59:22.6542|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'List' table...
+2020-08-19 20:01:13.7261|INFO|Hangfire.SqlServer.SqlServerObjectsInstaller|Start installing Hangfire SQL objects...
+2020-08-19 20:01:15.9626|INFO|Hangfire.SqlServer.SqlServerObjectsInstaller|Hangfire SQL objects installed.
+2020-08-19 20:01:16.0526|INFO|Hangfire.BackgroundJobServer|Starting Hangfire Server using job storage: 'SQL Server: 18.216.139.29@CustodianEveryWhereV2.0'
+2020-08-19 20:01:16.0526|INFO|Hangfire.BackgroundJobServer|Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+2020-08-19 20:01:16.0526|INFO|Hangfire.BackgroundJobServer|Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2020-08-19 20:01:16.1035|DEBUG|Hangfire.Server.AspNetShutdownDetector|HostingEnvironment.StopListening shutdown trigger initialized successfully.
+2020-08-19 20:01:16.1035|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop BackgroundServerProcess:08f7634e has started in 19.7264 ms
+2020-08-19 20:01:16.1035|DEBUG|Hangfire.Server.AspNetShutdownDetector|HostingEnvironment.ShutdownReason shutdown trigger initialized successfully.
+2020-08-19 20:01:16.7974|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:15988:9cd72de5 successfully announced in 665.8344 ms
+2020-08-19 20:01:16.8054|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerHeartbeatProcess:c81dad10 has started in 6.1946 ms
+2020-08-19 20:01:16.8054|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:15988:9cd72de5 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-08-19 20:01:16.8054|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerJobCancellationWatcher:cec63dd8 has started in 4.2247 ms
+2020-08-19 20:01:16.8054|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerWatchdog:afb9a270 has started in 5.3473 ms
+2020-08-19 20:01:16.8184|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:c7cdb150 has started in 5.2451 ms
+2020-08-19 20:01:16.8184|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'AggregatedCounter' table...
+2020-08-19 20:01:16.8184|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop CountersAggregator:aac20399 has started in 10.0606 ms
+2020-08-19 20:01:16.8184|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 20:01:16.8184|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:bebaa2c0 has started in 6.795 ms
+2020-08-19 20:01:16.8333|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:88844b25 has started in 10.0413 ms
+2020-08-19 20:01:16.8333|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:93320d94 has started in 20.1227 ms
+2020-08-19 20:01:16.8333|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:404ec4ee has started in 20.4041 ms
+2020-08-19 20:01:16.8503|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:3882ac13 has started in 26.9725 ms
+2020-08-19 20:01:16.8503|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:ddd628b3 has started in 37.9078 ms
+2020-08-19 20:01:16.8663|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:86aa7365 has started in 42.7233 ms
+2020-08-19 20:01:16.8663|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:f541c7a4 has started in 50.304 ms
+2020-08-19 20:01:16.8803|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:73466ff1 has started in 56.4216 ms
+2020-08-19 20:01:16.8803|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:6b4137a1 has started in 60.263 ms
+2020-08-19 20:01:16.8803|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:e1602d36 has started in 66.641 ms
+2020-08-19 20:01:16.8663|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:85e77b4c has started in 55.981 ms
+2020-08-19 20:01:16.8803|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:2e0af72d has started in 71.386 ms
+2020-08-19 20:01:16.9003|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:e250986e has started in 76.527 ms
+2020-08-19 20:01:16.9003|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:7ed8eedb has started in 81.5808 ms
+2020-08-19 20:01:16.9113|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:f12fb877 has started in 87.6076 ms
+2020-08-19 20:01:16.9113|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:82798926 has started in 93.4968 ms
+2020-08-19 20:01:16.9463|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:b5600fdc has started in 122.9686 ms
+2020-08-19 20:01:16.9463|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:44bdfa2f has started in 123.0362 ms
+2020-08-19 20:01:16.9603|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:82f82e4a has started in 136.2635 ms
+2020-08-19 20:01:16.9603|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:15988:9cd72de5 all the dispatchers started
+2020-08-19 20:01:16.9603|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop RecurringJobScheduler:86aed3f1 has started in 11.181 ms
+2020-08-19 20:01:16.9603|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop DelayedJobScheduler:007a3583 has started in 9.8594 ms
+2020-08-19 20:01:17.1092|INFO|Hangfire.Server.AspNetShutdownDetector|ASP.NET application is shutting down: HostingEnvironment.ShutdownReason: BinDirChangeOrDirectoryRename.
+2020-08-19 20:01:17.1092|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:15988:9cd72de5 caught stopping signal...
+2020-08-19 20:01:17.1092|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:15988:9cd72de5 caught stopped signal...
+2020-08-19 20:01:17.1092|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerWatchdog:afb9a270 stopped in 0.8324 ms
+2020-08-19 20:01:17.1092|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerJobCancellationWatcher:cec63dd8 stopped in 1.1329 ms
+2020-08-19 20:01:17.8498|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Job' table...
+2020-08-19 20:08:34.7965|INFO|Hangfire.SqlServer.SqlServerObjectsInstaller|Start installing Hangfire SQL objects...
+2020-08-19 20:08:37.2181|INFO|Hangfire.SqlServer.SqlServerObjectsInstaller|Hangfire SQL objects installed.
+2020-08-19 20:08:37.3260|INFO|Hangfire.BackgroundJobServer|Starting Hangfire Server using job storage: 'SQL Server: 18.216.139.29@CustodianEveryWhereV2.0'
+2020-08-19 20:08:37.3260|INFO|Hangfire.BackgroundJobServer|Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+2020-08-19 20:08:37.3350|INFO|Hangfire.BackgroundJobServer|Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2020-08-19 20:08:37.4539|DEBUG|Hangfire.Server.AspNetShutdownDetector|HostingEnvironment.StopListening shutdown trigger initialized successfully.
+2020-08-19 20:08:37.4589|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop BackgroundServerProcess:2260f03a has started in 57.058 ms
+2020-08-19 20:08:37.4809|DEBUG|Hangfire.Server.AspNetShutdownDetector|HostingEnvironment.ShutdownReason shutdown trigger initialized successfully.
+2020-08-19 20:08:38.4054|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:18588:13f6420b successfully announced in 911.8141 ms
+2020-08-19 20:08:38.4214|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerHeartbeatProcess:44dbd3e3 has started in 11.8227 ms
+2020-08-19 20:08:38.4214|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:18588:13f6420b is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-08-19 20:08:38.4364|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerWatchdog:f284743d has started in 12.2534 ms
+2020-08-19 20:08:38.4544|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerJobCancellationWatcher:470ca908 has started in 18.3531 ms
+2020-08-19 20:08:38.4724|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:cf0b9cdc has started in 17.8714 ms
+2020-08-19 20:08:38.4753|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'AggregatedCounter' table...
+2020-08-19 20:08:38.4753|INFO|Hangfire.Server.AspNetShutdownDetector|ASP.NET application is shutting down: HostingEnvironment.ShutdownReason: BinDirChangeOrDirectoryRename.
+2020-08-19 20:08:38.4903|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:18588:13f6420b caught stopping signal...
+2020-08-19 20:08:38.4903|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:18588:13f6420b caught stopped signal...
+2020-08-19 20:08:38.4903|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerJobCancellationWatcher:470ca908 stopped in 1.5187 ms
+2020-08-19 20:08:38.4903|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop CountersAggregator:c8bf24e8 has started in 25.8047 ms
+2020-08-19 20:08:38.4903|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop CountersAggregator:c8bf24e8 stopped in 7.3445 ms
+2020-08-19 20:08:38.5143|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:8444d1b3 has started in 15.6098 ms
+2020-08-19 20:08:38.5143|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:8444d1b3 stopped in 17.3365 ms
+2020-08-19 20:08:38.5143|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:ff88c7f7 has started in 21.8771 ms
+2020-08-19 20:08:38.5223|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:ff88c7f7 stopped in 23.2767 ms
+2020-08-19 20:08:38.5223|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:bf49130a has started in 36.366 ms
+2020-08-19 20:08:38.5363|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:bf49130a stopped in 37.637 ms
+2020-08-19 20:08:38.5363|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:f1d0d8d4 has started in 51.8623 ms
+2020-08-19 20:08:38.5523|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:f1d0d8d4 stopped in 53.2816 ms
+2020-08-19 20:08:38.5713|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:b09c58a9 has started in 72.46 ms
+2020-08-19 20:08:38.5713|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:b09c58a9 stopped in 74.5352 ms
+2020-08-19 20:08:38.5713|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:83334542 has started in 82.9167 ms
+2020-08-19 20:08:38.5853|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:83334542 stopped in 86.6321 ms
+2020-08-19 20:08:38.5853|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:370d09a1 has started in 92.7779 ms
+2020-08-19 20:08:38.5853|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:370d09a1 stopped in 94.0059 ms
+2020-08-19 20:08:38.6083|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:52a4e13d has started in 106.8608 ms
+2020-08-19 20:08:38.6083|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:52a4e13d stopped in 111.1981 ms
+2020-08-19 20:08:38.6083|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:35ec5777 has started in 109.8505 ms
+2020-08-19 20:08:38.6153|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:35ec5777 stopped in 116.2555 ms
+2020-08-19 20:08:38.6153|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:b0c5faf3 has started in 122.598 ms
+2020-08-19 20:08:38.6153|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:b0c5faf3 stopped in 126.9386 ms
+2020-08-19 20:08:38.6153|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:fd78e82b has started in 130.4347 ms
+2020-08-19 20:08:38.6313|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:fd78e82b stopped in 131.9805 ms
+2020-08-19 20:08:38.6313|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:c9289942 has started in 134.3648 ms
+2020-08-19 20:08:38.6313|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:c9289942 stopped in 136.7315 ms
+2020-08-19 20:08:38.6153|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:0b7a24aa has started in 126.5314 ms
+2020-08-19 20:08:38.6632|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:0b7a24aa stopped in 164.5939 ms
+2020-08-19 20:08:38.6632|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:0222cb99 has started in 166.5636 ms
+2020-08-19 20:08:38.6632|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:0222cb99 stopped in 169.9432 ms
+2020-08-19 20:08:38.7002|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:2909ef74 has started in 200.8911 ms
+2020-08-19 20:08:38.7002|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:2909ef74 stopped in 203.9726 ms
+2020-08-19 20:08:38.7002|INFO|Hangfire.Server.ServerWatchdog|2 servers were removed due to timeout
+2020-08-19 20:08:38.7002|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerWatchdog:f284743d stopped in 215.3313 ms
+2020-08-19 20:08:38.7372|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:d9fe29d2 has started in 238.4114 ms
+2020-08-19 20:08:38.7412|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:d9fe29d2 stopped in 248.6213 ms
+2020-08-19 20:08:38.7412|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:cc1fc11d has started in 247.7303 ms
+2020-08-19 20:08:38.7412|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:cc1fc11d stopped in 253.483 ms
+2020-08-19 20:08:38.7412|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:a7b3dc26 has started in 242.6766 ms
+2020-08-19 20:08:38.7652|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:a7b3dc26 stopped in 266.2064 ms
+2020-08-19 20:08:38.7722|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:5d813152 has started in 273.7157 ms
+2020-08-19 20:08:38.7722|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:5d813152 stopped in 275.9463 ms
+2020-08-19 20:08:38.7882|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:fa81ff02 has started in 289.699 ms
+2020-08-19 20:08:38.7882|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:fa81ff02 stopped in 299.4542 ms
+2020-08-19 20:08:38.8082|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop DelayedJobScheduler:2f3d0dea has started in 10.8635 ms
+2020-08-19 20:08:38.8082|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:18588:13f6420b all the dispatchers started
+2020-08-19 20:08:38.8082|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop DelayedJobScheduler:2f3d0dea stopped in 14.7434 ms
+2020-08-19 20:08:38.8082|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop RecurringJobScheduler:c3b62030 has started in 9.3105 ms
+2020-08-19 20:08:38.8192|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop RecurringJobScheduler:c3b62030 stopped in 14.2231 ms
+2020-08-19 20:08:40.5921|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Job' table...
+2020-08-19 20:08:41.3677|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'List' table...
+2020-08-19 20:08:42.0903|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Set' table...
+2020-08-19 20:08:42.8848|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Hash' table...
+2020-08-19 20:08:43.6284|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:cf0b9cdc stopped in 5136.6324 ms
+2020-08-19 20:08:43.6324|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:18588:13f6420b All dispatchers stopped
+2020-08-19 20:08:43.6474|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerHeartbeatProcess:44dbd3e3 stopped in 5156.1302 ms
+2020-08-19 20:08:44.1441|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:18588:13f6420b successfully reported itself as stopped in 467.0344 ms
+2020-08-19 20:08:44.1441|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:18588:13f6420b has been stopped in total 5653.4566 ms
+2020-08-19 20:08:44.1461|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop BackgroundServerProcess:2260f03a stopped in 5654.38 ms
+2020-08-19 20:09:12.1346|INFO|Hangfire.AppBuilderExtensions|Web application is shutting down via OWIN's host.OnAppDisposing callback.
+2020-08-19 20:09:13.8016|INFO|Hangfire.SqlServer.SqlServerObjectsInstaller|Start installing Hangfire SQL objects...
+2020-08-19 20:09:16.2307|INFO|Hangfire.SqlServer.SqlServerObjectsInstaller|Hangfire SQL objects installed.
+2020-08-19 20:09:16.3657|INFO|Hangfire.BackgroundJobServer|Starting Hangfire Server using job storage: 'SQL Server: 18.216.139.29@CustodianEveryWhereV2.0'
+2020-08-19 20:09:16.3657|INFO|Hangfire.BackgroundJobServer|Using the following options for SQL Server job storage: Queue poll interval: 00:00:15.
+2020-08-19 20:09:16.3657|INFO|Hangfire.BackgroundJobServer|Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15
+2020-08-19 20:09:16.5016|DEBUG|Hangfire.Server.AspNetShutdownDetector|HostingEnvironment.StopListening shutdown trigger initialized successfully.
+2020-08-19 20:09:16.5016|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop BackgroundServerProcess:d704e0a8 has started in 62.3865 ms
+2020-08-19 20:09:16.5016|DEBUG|Hangfire.Server.AspNetShutdownDetector|HostingEnvironment.ShutdownReason shutdown trigger initialized successfully.
+2020-08-19 20:09:17.2536|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:18588:09ba2ae8 successfully announced in 734.0457 ms
+2020-08-19 20:09:17.2666|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerHeartbeatProcess:ea51ad32 has started in 8.8366 ms
+2020-08-19 20:09:17.2666|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:18588:09ba2ae8 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler...
+2020-08-19 20:09:17.2736|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerWatchdog:0898d54a has started in 5.1117 ms
+2020-08-19 20:09:17.2736|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ServerJobCancellationWatcher:0d733e3a has started in 12.4723 ms
+2020-08-19 20:09:17.2876|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop ExpirationManager:e4a893c5 has started in 13.6675 ms
+2020-08-19 20:09:17.2876|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop CountersAggregator:dd7899e6 has started in 6.4695 ms
+2020-08-19 20:09:17.2876|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 20:09:17.2876|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'AggregatedCounter' table...
+2020-08-19 20:09:17.2876|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:1858317f has started in 12.8419 ms
+2020-08-19 20:09:17.3286|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:cef349ec has started in 46.1102 ms
+2020-08-19 20:09:17.3286|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:bef52315 has started in 43.0426 ms
+2020-08-19 20:09:17.2876|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:a3e8b1cc has started in 15.8392 ms
+2020-08-19 20:09:17.3416|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:dbd8e69c has started in 56.0085 ms
+2020-08-19 20:09:17.3525|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:6e97a04e has started in 66.3278 ms
+2020-08-19 20:09:17.3525|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:8849f843 has started in 70.5845 ms
+2020-08-19 20:09:17.3525|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:e61b589d has started in 77.7243 ms
+2020-08-19 20:09:17.3745|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:411ef7d8 has started in 88.0989 ms
+2020-08-19 20:09:17.3855|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:66c84569 has started in 99.2808 ms
+2020-08-19 20:09:17.3855|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:6f9fe063 has started in 102.4531 ms
+2020-08-19 20:09:17.3855|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:61efa4e0 has started in 107.0928 ms
+2020-08-19 20:09:17.3985|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:80a34e84 has started in 113.0139 ms
+2020-08-19 20:09:17.3985|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:d30c3495 has started in 117.8705 ms
+2020-08-19 20:09:17.3985|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:7ac0a78a has started in 122.1198 ms
+2020-08-19 20:09:17.4165|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:51051401 has started in 130.6716 ms
+2020-08-19 20:09:17.4165|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:12474937 has started in 134.7318 ms
+2020-08-19 20:09:17.4165|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:fe3d6baa has started in 137.5433 ms
+2020-08-19 20:09:17.4305|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:b9cd84eb has started in 144.8484 ms
+2020-08-19 20:09:17.4305|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop Worker:3124d60d has started in 148.5257 ms
+2020-08-19 20:09:17.4305|INFO|Hangfire.Server.BackgroundServerProcess|Server oscardy:18588:09ba2ae8 all the dispatchers started
+2020-08-19 20:09:17.4305|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop DelayedJobScheduler:15960087 has started in 14.2427 ms
+2020-08-19 20:09:17.4425|DEBUG|Hangfire.Processing.BackgroundExecution|Execution loop RecurringJobScheduler:e84e5874 has started in 7.9998 ms
+2020-08-19 20:09:18.5190|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Job' table...
+2020-08-19 20:09:20.4143|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'List' table...
+2020-08-19 20:09:21.3000|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Set' table...
+2020-08-19 20:09:22.1575|DEBUG|Hangfire.SqlServer.ExpirationManager|Removing outdated records from the 'Hash' table...
+2020-08-19 20:09:30.8050|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:09:47.5310|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:10:09.5463|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:10:17.7746|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:10:48.0216|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:11:18.2686|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:11:19.5542|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:11:48.5185|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:12:13.8520|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:12:18.7645|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:12:49.1919|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:13:08.3108|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:13:19.4331|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:13:49.6784|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:14:18.5083|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:14:18.9740|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 20:14:19.9246|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:14:50.2772|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:15:12.4680|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:15:20.5298|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:15:50.8037|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:16:06.9414|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:16:21.1178|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:16:51.3698|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:17:16.6446|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:17:21.6109|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:17:51.8550|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:18:10.7775|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:18:22.1200|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:18:52.3644|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:19:19.2189|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 20:19:20.9470|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:19:22.7838|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:19:53.0305|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:20:14.9460|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:20:23.2863|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:20:53.5543|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:21:09.0041|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:21:23.8306|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:21:54.0832|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:22:18.8066|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:22:24.4083|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:22:54.7191|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:23:13.6001|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:23:24.9633|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:23:55.2079|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:24:07.5654|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:24:19.4783|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 20:24:25.4490|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:24:55.6938|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:25:18.1098|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:25:25.9514|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:25:56.2535|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:26:11.9978|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:26:26.5538|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:26:56.7978|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:27:21.8802|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:27:27.0446|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:27:57.3419|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:28:16.3288|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:28:27.5836|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:28:57.8286|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:29:10.6572|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:29:19.8330|DEBUG|Hangfire.SqlServer.CountersAggregator|Aggregating records in 'Counter' table...
+2020-08-19 20:29:28.1471|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:29:58.4259|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:30:20.5966|DEBUG|Hangfire.Server.RecurringJobScheduler|1 recurring job(s) processed by scheduler.
+2020-08-19 20:30:28.6909|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent
+2020-08-19 20:30:58.9387|DEBUG|Hangfire.Server.ServerHeartbeatProcess|Server oscardy:18588:09ba2ae8 heartbeat successfully sent

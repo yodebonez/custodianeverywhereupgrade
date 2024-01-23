@@ -1,0 +1,234 @@
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\obj\Release\TestSerials.csprojAssemblyReference.cache
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\NLog.config
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\TestSerials.exe.config
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\TestSerials.exe
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\TestSerials.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Dapper.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\DapperLayer.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\DataStore.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\EntityFramework.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Newtonsoft.Json.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Oracle.DataAccess.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\System.ValueTuple.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\UpSellingAndCrossSelling.exe
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\WindowsService1.exe
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\NLog.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Spire.Doc.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\CustodianEmailSMSGateway.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\GenerateTransactionCodes.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Quartz.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\NewsAPI.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Spire.Pdf.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Spire.License.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\SendGrid.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Common.Logging.Core.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Common.Logging.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Microsoft.mshtml.dll
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\DapperLayer.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\DataStore.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\DataStore.dll.config
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\UpSellingAndCrossSelling.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\UpSellingAndCrossSelling.exe.config
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\WindowsService1.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\WindowsService1.exe.config
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Dapper.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\EntityFramework.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Newtonsoft.Json.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Newtonsoft.Json.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\System.ValueTuple.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\NLog.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Spire.Doc.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\CustodianEmailSMSGateway.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Quartz.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Quartz.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\NewsAPI.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Spire.License.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\SendGrid.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\SendGrid.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Common.Logging.Core.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Common.Logging.Core.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Common.Logging.pdb
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\bin\Release\Common.Logging.xml
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\obj\Release\TestSerials.csproj.CopyComplete
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\obj\Release\TestSerials.exe
+C:\Users\OItaba\Documents\Visual Studio 2015\Projects\CustodianEveryWhereV2.0\TestSerials\obj\Release\TestSerials.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\NLog.config
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.exe.config
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.exe
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Dapper.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\DapperLayer.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\DataStore.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Newtonsoft.Json.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Oracle.DataAccess.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\System.ValueTuple.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\UpSellingAndCrossSelling.exe
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\WindowsService1.exe
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\NLog.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.Doc.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\CustodianEmailSMSGateway.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\GenerateTransactionCodes.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Quartz.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\NewsAPI.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.Pdf.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.License.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.Core.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Microsoft.mshtml.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\DapperLayer.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\DataStore.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\DataStore.dll.config
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\UpSellingAndCrossSelling.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\UpSellingAndCrossSelling.exe.config
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\WindowsService1.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\WindowsService1.exe.config
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Dapper.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Newtonsoft.Json.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Newtonsoft.Json.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\System.ValueTuple.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\NLog.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.Doc.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Quartz.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Quartz.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\NewsAPI.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.License.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.Core.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.Core.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.xml
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.csprojAssemblyReference.cache
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.csproj.CopyComplete
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.exe
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.pdb
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.XmlSerializers.dll
+C:\Users\User\Documents\Projects\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.XmlSerializers.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\NLog.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.exe.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.exe
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.XmlSerializers.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Dapper.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\DapperLayer.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\DataStore.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Newtonsoft.Json.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\System.ValueTuple.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\UpSellingAndCrossSelling.exe
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\WindowsService1.exe
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\NLog.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.Doc.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Oracle.DataAccess.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\CustodianEmailSMSGateway.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\GenerateTransactionCodes.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Quartz.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\NewsAPI.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.Pdf.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.License.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.Core.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Microsoft.mshtml.dll
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\DapperLayer.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\DataStore.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\DataStore.dll.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\UpSellingAndCrossSelling.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\UpSellingAndCrossSelling.exe.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\WindowsService1.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\WindowsService1.exe.config
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Dapper.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Newtonsoft.Json.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Newtonsoft.Json.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\System.ValueTuple.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\NLog.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.Doc.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Quartz.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Quartz.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\NewsAPI.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.License.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.Core.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.Core.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.xml
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.csprojAssemblyReference.cache
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.csproj.CopyComplete
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.exe
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.pdb
+C:\Users\USER\Documents\CustodianProject\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.XmlSerializers.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.exe.config
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.exe
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.XmlSerializers.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\TestSerials.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\DataStore.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Newtonsoft.Json.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\System.ValueTuple.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\WindowsService1.exe
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\NLog.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.Doc.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Hangfire.Core.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\CustodianEmailSMSGateway.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Hangfire.Console.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\GenerateTransactionCodes.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Quartz.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\NewsAPI.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.Pdf.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.License.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Owin.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.Core.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Microsoft.mshtml.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\DataStore.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\DataStore.dll.config
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\WindowsService1.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\WindowsService1.exe.config
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Newtonsoft.Json.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\System.ValueTuple.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\NLog.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.Doc.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Hangfire.Core.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Hangfire.Console.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Quartz.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Quartz.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\NewsAPI.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Spire.License.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.Core.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.Core.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Common.Logging.xml
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\es\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\fa\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\fr\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\nl\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\pt\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\pt-BR\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\pt-PT\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\zh\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\zh-TW\Hangfire.Core.resources.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.csprojAssemblyReference.cache
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.csproj.CoreCompileInputs.cache
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.csproj.CopyComplete
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.exe
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\obj\Release\TestSerials.XmlSerializers.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\RecurringDebitService.exe
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\Oracle.ManagedDataAccess.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\RecurringDebitService.pdb
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\RecurringDebitService.exe.config
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\DecimalMath.DecimalEx.dll
+C:\Users\oitaba\Documents\custodian projects\custodianeverywhere2.0new\TestSerials\bin\Release\DecimalMath.DecimalEx.xml

@@ -1,0 +1,48 @@
+[
+  {
+    "convention_id": 357,
+    "zones": [
+      {
+        "type": "AFRICA",
+        "value": 729
+      },
+      {
+        "type": "MIDDLEANDASIA",
+        "value": 730
+      },
+      {
+        "type": "SCHENGHEN",
+        "value": 731
+      },
+      {
+        "type": "WORLDWIDE",
+        "value": 733
+      },
+      {
+        "type": "WORLDWIDE2",
+        "value": 734
+      }
+    ],
+    "username": "CustodianWS2019",
+    "password": "Cust0d!@n@2019",
+    "hash": "b3b9cbb3ae688debd051d53b3fb173fe",
+    "program": 1800
+  },
+  {
+    "convention_id": 187,
+    "zones": [
+      {
+        "type": "AREA_1",
+        "value": 336
+      },
+      {
+        "type": "AREA_2",
+        "value": 337
+      }
+    ],
+    "username": "CustodianWS",
+    "password": "custodian2018#",
+    "hash": "e036fa83c8f1543e2b37eeba767b0879",
+    "program": 1507
+  }
+]

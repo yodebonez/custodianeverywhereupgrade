@@ -1,0 +1,51 @@
+﻿[
+  {
+    "Key": "e4qExmsfmjbjiXNDHEXD4ljch4UgxF6K3pPey+JjAyQKFZsdbDHKZXy+2nlklj3B1sSkcHSTCITxCKQO9tz05g==",
+    "EndPoint": "https://ussouthcentral.services.azureml.net/workspaces/dd8eaf48f85f4d729407beb92b805d3c/services/9f85cc86e44d4518ad53cf8fcc31a4b4/execute?api-version=2.0&format=swagger",
+    "ProductName": "CUSTODIAN ESUSU SHIELD",
+    "IsActive": true,
+    "ProductDescription": ""
+  },
+  {
+    "Key": "Y0F303plRvjXVSgaY/30yfWcROhNmlb4Qvxu2DdFXJnAssgHr9OXKj00kSDVM8vcnl4xfv4Z71py8o/teSvwgg==",
+    "EndPoint": "https://ussouthcentral.services.azureml.net/workspaces/dd8eaf48f85f4d729407beb92b805d3c/services/6af55398afd04b80aabf814ce6e32c2a/execute?api-version=2.0&format=swagger",
+    "ProductName": "CUSTODIAN LIFE TIME HARVEST",
+    "IsActive": true,
+    "ProductDescription": ""
+  },
+  {
+    "Key": "e9433GS0R4kWPll1VuYVLCjBI2TEmu+q4nk1LsTYWG1gBw6/THr0vrMSq9AgBJrLx+/jnjigPpICnGNOZhz/zw==",
+    "EndPoint": "https://ussouthcentral.services.azureml.net/workspaces/dd8eaf48f85f4d729407beb92b805d3c/services/037451386c894f03a9f4bec161b06e1e/execute?api-version=2.0&format=swagger",
+    "ProductName": "CUSTODIAN CAPITAL BUILDER",
+    "IsActive": true,
+    "ProductDescription": ""
+  },
+  {
+    "Key": "ya7Qba+iIkWEXCh2bv3ejKEPfxAr9ZYOZ/TS5RsCpLAnxaei0jQhcyHtDlNuW7lydbkH1VUvY6qnDn2UXR4DRg==",
+    "EndPoint": "https://ussouthcentral.services.azureml.net/workspaces/dd8eaf48f85f4d729407beb92b805d3c/services/cb93d4f90d354e4ab44b26a02fe8c947/execute?api-version=2.0&format=swagger",
+    "ProductName": "MOTOR",
+    "IsActive": true,
+    "ProductDescription": ""
+  },
+  {
+    "Key": "lhnrOBOYSxAcg3jlVW3khL0LuWdabSPm8eXlGfziukM5pqPkxvU+0CBhIOLRlTsaoKmco0uPcuwvjbeamc2CTw==",
+    "EndPoint": "https://ussouthcentral.services.azureml.net/workspaces/dd8eaf48f85f4d729407beb92b805d3c/services/5b79a8f1a5f74972a2b72286a2464701/execute?api-version=2.0&format=swagger",
+    "ProductName": "FIRE",
+    "IsActive": true,
+    "ProductDescription": ""
+  },
+  {
+    "Key": "vLVXq88zhB9KwDYL4O0p1+ccl44yUXLYEismmcJks+KUwFX33X4DW/fHsVHVJ+vIp2LS998paWc+ysXP+NZtpw==",
+    "EndPoint": "https://ussouthcentral.services.azureml.net/workspaces/dd8eaf48f85f4d729407beb92b805d3c/services/648ca57ba0a24fcb89da6f0709d89b32/execute?api-version=2.0&format=swagger",
+    "ProductName": "ACCIDENT",
+    "IsActive": true,
+    "ProductDescription": ""
+  },
+  {
+    "Key": "hykDnqJRUW/YptAY206YSj6zFCwu6aOd4GkwaLL/5WfAEsdUy+oW38gct6QBPSOXgcMg8Qf35NAq4Ah3D7cFuw==",
+    "EndPoint": "https://ussouthcentral.services.azureml.net/workspaces/dd8eaf48f85f4d729407beb92b805d3c/services/a0088772dac14a60b576af472afbbefc/execute?api-version=2.0&format=swagger",
+    "ProductName": "WILLS AND TRUST",
+    "IsActive": true,
+    "ProductDescription": ""
+  }
+]

@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="WS_LicenseInfoByRegNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegistrationNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Lastname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Firstname" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Middlename" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Longitude" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Latitude" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passkey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS_LicenseInfoByRegNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS_LicenseInfoByRegNoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS_LicenseInfoByRegNoPhoneNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegistrationNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PhoneNo" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Longitude" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Latitude" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passkey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS_LicenseInfoByRegNoPhoneNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS_LicenseInfoByRegNoPhoneNoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS_LicenseInfoByRegNoChassisNo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="RegistrationNumber" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Chassis" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Longitude" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Latitude" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passkey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS_LicenseInfoByRegNoChassisNoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS_LicenseInfoByRegNoChassisNoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS_VehicleCheck_Report">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CompName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="StartDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EndDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Longitude" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Latitude" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="passkey" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="WS_VehicleCheck_ReportResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="WS_VehicleCheck_ReportResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="WS_LicenseInfoByRegNoSoapIn">
+    <wsdl:part name="parameters" element="tns:WS_LicenseInfoByRegNo" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoSoapOut">
+    <wsdl:part name="parameters" element="tns:WS_LicenseInfoByRegNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoPhoneNoSoapIn">
+    <wsdl:part name="parameters" element="tns:WS_LicenseInfoByRegNoPhoneNo" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoPhoneNoSoapOut">
+    <wsdl:part name="parameters" element="tns:WS_LicenseInfoByRegNoPhoneNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoChassisNoSoapIn">
+    <wsdl:part name="parameters" element="tns:WS_LicenseInfoByRegNoChassisNo" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoChassisNoSoapOut">
+    <wsdl:part name="parameters" element="tns:WS_LicenseInfoByRegNoChassisNoResponse" />
+  </wsdl:message>
+  <wsdl:message name="WS_VehicleCheck_ReportSoapIn">
+    <wsdl:part name="parameters" element="tns:WS_VehicleCheck_Report" />
+  </wsdl:message>
+  <wsdl:message name="WS_VehicleCheck_ReportSoapOut">
+    <wsdl:part name="parameters" element="tns:WS_VehicleCheck_ReportResponse" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoHttpGetIn">
+    <wsdl:part name="RegistrationNumber" type="s:string" />
+    <wsdl:part name="Lastname" type="s:string" />
+    <wsdl:part name="Firstname" type="s:string" />
+    <wsdl:part name="Middlename" type="s:string" />
+    <wsdl:part name="Longitude" type="s:string" />
+    <wsdl:part name="Latitude" type="s:string" />
+    <wsdl:part name="passkey" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoPhoneNoHttpGetIn">
+    <wsdl:part name="RegistrationNumber" type="s:string" />
+    <wsdl:part name="PhoneNo" type="s:string" />
+    <wsdl:part name="Longitude" type="s:string" />
+    <wsdl:part name="Latitude" type="s:string" />
+    <wsdl:part name="passkey" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoPhoneNoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoChassisNoHttpGetIn">
+    <wsdl:part name="RegistrationNumber" type="s:string" />
+    <wsdl:part name="Chassis" type="s:string" />
+    <wsdl:part name="Longitude" type="s:string" />
+    <wsdl:part name="Latitude" type="s:string" />
+    <wsdl:part name="passkey" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoChassisNoHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_VehicleCheck_ReportHttpGetIn">
+    <wsdl:part name="CompName" type="s:string" />
+    <wsdl:part name="StartDate" type="s:string" />
+    <wsdl:part name="EndDate" type="s:string" />
+    <wsdl:part name="Longitude" type="s:string" />
+    <wsdl:part name="Latitude" type="s:string" />
+    <wsdl:part name="passkey" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_VehicleCheck_ReportHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoHttpPostIn">
+    <wsdl:part name="RegistrationNumber" type="s:string" />
+    <wsdl:part name="Lastname" type="s:string" />
+    <wsdl:part name="Firstname" type="s:string" />
+    <wsdl:part name="Middlename" type="s:string" />
+    <wsdl:part name="Longitude" type="s:string" />
+    <wsdl:part name="Latitude" type="s:string" />
+    <wsdl:part name="passkey" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoPhoneNoHttpPostIn">
+    <wsdl:part name="RegistrationNumber" type="s:string" />
+    <wsdl:part name="PhoneNo" type="s:string" />
+    <wsdl:part name="Longitude" type="s:string" />
+    <wsdl:part name="Latitude" type="s:string" />
+    <wsdl:part name="passkey" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoPhoneNoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoChassisNoHttpPostIn">
+    <wsdl:part name="RegistrationNumber" type="s:string" />
+    <wsdl:part name="Chassis" type="s:string" />
+    <wsdl:part name="Longitude" type="s:string" />
+    <wsdl:part name="Latitude" type="s:string" />
+    <wsdl:part name="passkey" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_LicenseInfoByRegNoChassisNoHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_VehicleCheck_ReportHttpPostIn">
+    <wsdl:part name="CompName" type="s:string" />
+    <wsdl:part name="StartDate" type="s:string" />
+    <wsdl:part name="EndDate" type="s:string" />
+    <wsdl:part name="Longitude" type="s:string" />
+    <wsdl:part name="Latitude" type="s:string" />
+    <wsdl:part name="passkey" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="WS_VehicleCheck_ReportHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="VehicleCheckSoap">
+    <wsdl:operation name="WS_LicenseInfoByRegNo">
+      <wsdl:input message="tns:WS_LicenseInfoByRegNoSoapIn" />
+      <wsdl:output message="tns:WS_LicenseInfoByRegNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoPhoneNo">
+      <wsdl:input message="tns:WS_LicenseInfoByRegNoPhoneNoSoapIn" />
+      <wsdl:output message="tns:WS_LicenseInfoByRegNoPhoneNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoChassisNo">
+      <wsdl:input message="tns:WS_LicenseInfoByRegNoChassisNoSoapIn" />
+      <wsdl:output message="tns:WS_LicenseInfoByRegNoChassisNoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS_VehicleCheck_Report">
+      <wsdl:input message="tns:WS_VehicleCheck_ReportSoapIn" />
+      <wsdl:output message="tns:WS_VehicleCheck_ReportSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="VehicleCheckHttpGet">
+    <wsdl:operation name="WS_LicenseInfoByRegNo">
+      <wsdl:input message="tns:WS_LicenseInfoByRegNoHttpGetIn" />
+      <wsdl:output message="tns:WS_LicenseInfoByRegNoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoPhoneNo">
+      <wsdl:input message="tns:WS_LicenseInfoByRegNoPhoneNoHttpGetIn" />
+      <wsdl:output message="tns:WS_LicenseInfoByRegNoPhoneNoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoChassisNo">
+      <wsdl:input message="tns:WS_LicenseInfoByRegNoChassisNoHttpGetIn" />
+      <wsdl:output message="tns:WS_LicenseInfoByRegNoChassisNoHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS_VehicleCheck_Report">
+      <wsdl:input message="tns:WS_VehicleCheck_ReportHttpGetIn" />
+      <wsdl:output message="tns:WS_VehicleCheck_ReportHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="VehicleCheckHttpPost">
+    <wsdl:operation name="WS_LicenseInfoByRegNo">
+      <wsdl:input message="tns:WS_LicenseInfoByRegNoHttpPostIn" />
+      <wsdl:output message="tns:WS_LicenseInfoByRegNoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoPhoneNo">
+      <wsdl:input message="tns:WS_LicenseInfoByRegNoPhoneNoHttpPostIn" />
+      <wsdl:output message="tns:WS_LicenseInfoByRegNoPhoneNoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoChassisNo">
+      <wsdl:input message="tns:WS_LicenseInfoByRegNoChassisNoHttpPostIn" />
+      <wsdl:output message="tns:WS_LicenseInfoByRegNoChassisNoHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="WS_VehicleCheck_Report">
+      <wsdl:input message="tns:WS_VehicleCheck_ReportHttpPostIn" />
+      <wsdl:output message="tns:WS_VehicleCheck_ReportHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="VehicleCheckSoap" type="tns:VehicleCheckSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WS_LicenseInfoByRegNo">
+      <soap:operation soapAction="http://tempuri.org/WS_LicenseInfoByRegNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoPhoneNo">
+      <soap:operation soapAction="http://tempuri.org/WS_LicenseInfoByRegNoPhoneNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoChassisNo">
+      <soap:operation soapAction="http://tempuri.org/WS_LicenseInfoByRegNoChassisNo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_VehicleCheck_Report">
+      <soap:operation soapAction="http://tempuri.org/WS_VehicleCheck_Report" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VehicleCheckSoap12" type="tns:VehicleCheckSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="WS_LicenseInfoByRegNo">
+      <soap12:operation soapAction="http://tempuri.org/WS_LicenseInfoByRegNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoPhoneNo">
+      <soap12:operation soapAction="http://tempuri.org/WS_LicenseInfoByRegNoPhoneNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoChassisNo">
+      <soap12:operation soapAction="http://tempuri.org/WS_LicenseInfoByRegNoChassisNo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_VehicleCheck_Report">
+      <soap12:operation soapAction="http://tempuri.org/WS_VehicleCheck_Report" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VehicleCheckHttpGet" type="tns:VehicleCheckHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="WS_LicenseInfoByRegNo">
+      <http:operation location="/WS_LicenseInfoByRegNo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoPhoneNo">
+      <http:operation location="/WS_LicenseInfoByRegNoPhoneNo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoChassisNo">
+      <http:operation location="/WS_LicenseInfoByRegNoChassisNo" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_VehicleCheck_Report">
+      <http:operation location="/WS_VehicleCheck_Report" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="VehicleCheckHttpPost" type="tns:VehicleCheckHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="WS_LicenseInfoByRegNo">
+      <http:operation location="/WS_LicenseInfoByRegNo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoPhoneNo">
+      <http:operation location="/WS_LicenseInfoByRegNoPhoneNo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_LicenseInfoByRegNoChassisNo">
+      <http:operation location="/WS_LicenseInfoByRegNoChassisNo" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="WS_VehicleCheck_Report">
+      <http:operation location="/WS_VehicleCheck_Report" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="VehicleCheck">
+    <wsdl:port name="VehicleCheckSoap" binding="tns:VehicleCheckSoap">
+      <soap:address location="http://ws.autoreglive.com/vehiclecheck.asmx" />
+    </wsdl:port>
+    <wsdl:port name="VehicleCheckSoap12" binding="tns:VehicleCheckSoap12">
+      <soap12:address location="http://ws.autoreglive.com/vehiclecheck.asmx" />
+    </wsdl:port>
+    <wsdl:port name="VehicleCheckHttpGet" binding="tns:VehicleCheckHttpGet">
+      <http:address location="http://ws.autoreglive.com/vehiclecheck.asmx" />
+    </wsdl:port>
+    <wsdl:port name="VehicleCheckHttpPost" binding="tns:VehicleCheckHttpPost">
+      <http:address location="http://ws.autoreglive.com/vehiclecheck.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

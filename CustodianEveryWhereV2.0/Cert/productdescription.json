@@ -1,0 +1,122 @@
+[
+  {
+    "productKey": "ESUSUSHIELD",
+    "productName": "Esusu Shield",
+    "description": "Esusu Shield is a savings investment policy. It also provides life insurance and personal accident cover",
+    "isActive": true,
+    "termsOptions": [ 1, 2, 3, 4, 5 ],
+    "termMessurement": "Years",
+    "rates": null,
+    "frequency": [
+      {
+        "value": "Monthly",
+        "text": "Monthly"
+      },
+      {
+        "value": "Annually",
+        "text": "Annually"
+      },
+      {
+        "value": "Quarterly",
+        "text": "Quarterly"
+      },
+      {
+        "value": "Bi_Annually",
+        "text": "Bi Annually"
+      },
+      {
+        "value": "Single",
+        "text": "Single"
+      }
+    ],
+    "coverType": "EsusuShield"
+  },
+  {
+    "productKey": "LIFETIMEHARVEST",
+    "productName": "Lifetime Harvest",
+    "description": "Lifetime Harvest is an endowment  assurance plan that pays out a percentage of the sum assured at intervals. It also provides additional fatal accident benefit and medical expenses",
+    "isActive": true,
+    "termsOptions": [ 6, 9, 12, 16, 18, 24 ],
+    "termMessurement": "Years",
+    "rates": null,
+    "frequency": [
+      {
+        "value": "Monthly",
+        "text": "Monthly"
+      },
+      {
+        "value": "Annually",
+        "text": "Annually"
+      },
+      {
+        "value": "Quarterly",
+        "text": "Quarterly"
+      },
+      {
+        "value": "Bi_Annually",
+        "text": "Bi Annually"
+      },
+      {
+        "value": "Single",
+        "text": "Single"
+      }
+    ],
+    "coverType": "LifeTimeHarvest"
+  },
+  {
+    "productKey": "PERSONALACCIDENT",
+    "productName": "Personal Accident",
+    "description": "Personal Accident (Safety Plus) is a unit of the personal accident insurance for individuals",
+    "isActive": true,
+    "rates": null,
+    "frequency": null,
+    "coverType": "PersonalAccident"
+  },
+  {
+    "productKey": "LOCALTRAVEL",
+    "productName": "Local Travel",
+    "description": "Local Travel is an insurance product that provides accident and luggage benefits for interstate travellers. It pays out maximum benefit of N300,00.00",
+    "isActive": true,
+    "termsOptions": null,
+    "termMessurenemt": null,
+    "rates": null,
+    "frequency": null,
+    "coverType": "LocalTravel"
+  },
+  {
+    "productKey": "THIRDPARTY",
+    "productName": "Third Party",
+    "description": "Third party insurance",
+    "isActive": true,
+    "termsOptions": null,
+    "termMessurenemt": null,
+    "rates": [
+      {
+        "typekey": "PRIVATECAR",
+        "typeLabel": "Private Car",
+        "premium": 5000.00,
+        "display": "Private Car N5,000"
+      },
+      {
+        "typekey": "STAFFBUS",
+        "typeLabel": " Staff Bus & Own Goods",
+        "premium": 7500.00,
+        "display": "Staff Bus & Own Goods N7500"
+      },
+      {
+        "typekey": "TRUCKS",
+        "typeLabel": "Trucks & General Cartage",
+        "premium": 25000.00,
+        "display": "Trucks & General Cartage N25000"
+      },
+      {
+        "typekey": "AMBULANCE",
+        "typeLabel": "Ambulance/Hearses",
+        "premium": 5000.00,
+        "display": "Ambulance/Hearses N5000"
+      }
+    ],
+    "frequency": null,
+    "coverType": "Third_Party"
+  }
+]

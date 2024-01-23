@@ -1,0 +1,92 @@
+﻿[
+  {
+    "Key": "T",
+    "Code": "TRADING",
+    "Email": "ttrading@custodianinsurance.com"
+  },
+  {
+    "Key": "F",
+    "Code": "FINANCIALINSTITUTIONS",
+    "Email": "tfinancialinstitutions@custodianinsurance.com"
+  },
+  {
+    "Key": "B",
+    "Code": "RETAILBANCASSURANCE",
+    "Email": "tbancassurance@custodianinsurance.com"
+  },
+  {
+    "Key": "E",
+    "Code": "ENGINEERINGTELECOMS",
+    "Email": "tengineering@custodianinsurance.com"
+  },
+  {
+    "Key": "M",
+    "Code": "MANUFACTURING",
+    "Email": "tmanufacturing@custodianinsurance.com"
+  },
+  {
+    "Key": "P",
+    "Code": "PUBLICSECTOR",
+    "Email": "tpublicsector@custodianinsurance.com"
+  },
+  {
+    "Key": "ASZ",
+    "Code": "OILANDGAS",
+    "Email": "tenergyteam@custodianinsurance.com"
+  },
+  {
+    "Key": "AB",
+    "Code": "BRANCH",
+    "Email": "tabujaoffice@custodianinsurance.com"
+  },
+  {
+    "Key": "KN",
+    "Code": "BRANCHES",
+    "Email": "tnorthernregion@custodianinsurance.com"
+  },
+  {
+    "Key": "KD",
+    "Code": "BRANCH",
+    "Email": "tnorthernregion@custodianinsurance.com"
+  },
+  {
+    "Key": "IB",
+    "Code": "BRANCH",
+    "Email": "twesternregion@custodianinsurance.com"
+  },
+  {
+    "Key": "AK",
+    "Code": "BRANCH",
+    "Email": "twesternregion@custodianinsurance.com"
+  },
+  {
+    "Key": "OS",
+    "Code": "BRANCH",
+    "Email": "twesternregion@custodianinsurance.com"
+  },
+  {
+    "Key": "PH",
+    "Code": "BRANCH",
+    "Email": "tsouthernregion@custodianinsurance.com"
+  },
+  {
+    "Key": "OW",
+    "Code": "BRANCH",
+    "Email": "tsouthernregion@custodianinsurance.com"
+  },
+  {
+    "Key": "BN",
+    "Code": "BRANCH",
+    "Email": "tsouthernregion@custodianinsurance.com"
+  },
+  {
+    "Key": "G",
+    "Code": "PERSONALLINES",
+    "Email": "tPersonallines@custodianinsurance.com"
+  },
+  {
+    "Key": "LI",
+    "Code": "LIFE",
+    "Email": "tretailenterprise@custodianinsurance.com"
+  }
+]

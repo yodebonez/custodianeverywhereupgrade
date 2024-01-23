@@ -1,0 +1,522 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0869C50-6977-4EA9-9BA0-1B0912716DF3}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestSerials</RootNamespace>
+    <AssemblyName>TestSerials</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.4.7.10\lib\net45\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Human.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\Cust\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\TravelApi\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\CustodianE\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="Config\API_SETTINGS.json" />
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.ABSNIID.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.BrokerData.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.certificate_out.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.ClaimCount.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.Claimfl.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.ClaimRegStatus.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.ClientData.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.Crm_Birthday.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.CRM_Claims.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.CRM_ClaimsDetail.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.CRM_Dashboard.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.CRM_PolicyDetail.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.Crm_PolicyInfo.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.Crm_Renewal.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.CRM_Top10Det.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.CRM_TopProduct.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.MorePolicyDetails.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.MotorList.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.NotificationsDetails.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.PassportDetails.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.PolBalances.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.PolExpDate.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.PolicyDet.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.PolValidation.datasource" />
+    <None Include="Properties\DataSources\RecurringDebitService.InternalAPI.To_be_renewed.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\Cust\Policyservices.wsdl" />
+    <None Include="Service References\Cust\TestSerials.Cust.ABSMotorInterestResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.CreateLifeClientResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Generating_Claims_Number1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetAnnuityGuaranteePeriodResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetAnnuitypaymentfreqResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetAnnuitypayOutFreqResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetBrokerMotorQuoteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetClaimStatusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetClientDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetConfirmTelResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetContactClaimResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_ActiveCustomersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_ActivePoliciesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_AllPoliciesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_BirthdayResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_BrokerResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_ClaimCountResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_ClaimsDetailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_ClaimsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_CustomersResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_DashBoardResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_LapseDetailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_NIIDDataResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_PolicyDetailResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_PolicyRenewalResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_TobeRenewedResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_Top10Response.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetCRM_TopProductlinesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetHomeShieldQuoteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetHouseHolderQuoteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetLifeCoverTypeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetlifePolicyBalancesResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetLifeProductCategResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetLifeProductFrequencyResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetLifeProductTypeResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetLifeQuoteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetLifeQuoteTermResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetMorePolicyDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetMotorPolicyDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetMotorQuoteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetPassportDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetPolicyDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetPolicyExpiryDateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetPolicyValidationResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetPPTDetailsResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetSafetyplusQuoteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetTQproposalNumResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.GetTravelQuoteResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_Broker_HouseHolder_PostSource1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_Broker_Motor1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_Broker_Motor_PostSource1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_Broker_Travel_PostSource1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_HomeShield_PostSource1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_Marine_PostSource1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_Motor_PostSource1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_NNPC_Travel_PostSource1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_Payment_PostSource1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_RenewalPayment_PostSource1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_SafetyPlus_PostSource1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.Passing_Travel_PostSource1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.PostABSSyncResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.PostClaimsUpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.PostHomeShieldResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.POSTMotorRecResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.POSTNotificationDetResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.POSTOtherMotorRecResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.PostSafetyPlusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.PostTQSyncResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.PostTravel2RagaResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.POSTTravelRecResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.SubmitClaimRegisterResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\Cust\TestSerials.Cust.SubmitPaymentRecordResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TravelApi\TestSerials.TravelApi.OTA_AirLowFareSearchPlusRS.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TravelApi\TestSerials.TravelApi.wmLowFarePlusResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TravelApi\wsLowFarePlus1.wsdl" />
+    <None Include="Web References\CustodianE\ABSNIID.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\BrokerData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\certificate_out.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\ClaimCount.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\Claimfl.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\ClaimRegStatus.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\ClientData.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\Crm_Birthday.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\CRM_Claims.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\CRM_ClaimsDetail.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\CRM_Dashboard.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\CRM_PolicyDetail.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\Crm_PolicyInfo.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\Crm_Renewal.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\CRM_Top10Det.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\CRM_TopProduct.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\MorePolicyDetails.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\MotorList.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\mResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\NotificationsDetails.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\PassportDetails.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\PolBalances.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\PolExpDate.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\PolicyDet.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\Policyservices.wsdl" />
+    <None Include="Web References\CustodianE\PolValidation.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\CustodianE\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\CustodianE\To_be_renewed.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\Cust\" />
+    <WCFMetadataStorage Include="Service References\TravelApi\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TravelApi\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TravelApi\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TravelApi\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\TravelApi\wsLowFarePlus1.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DataStore\DataStore.csproj">
+      <Project>{84FC4D85-940B-4A62-BDCE-A9C61C2C463D}</Project>
+      <Name>DataStore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RecurringDebitService\RecurringDebitService.csproj">
+      <Project>{2cceee34-52ec-47f6-ad30-6576a52b35b8}</Project>
+      <Name>RecurringDebitService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WindowsService1\CronJobsNews.csproj">
+      <Project>{C56F099C-E7E7-46A1-8A86-9B9B3CDC4037}</Project>
+      <Name>CronJobsNews</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://192.168.10.74/custodin/policyservices.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\CustodianE\</RelPath>
+      <UpdateFromURL>http://192.168.10.74/custodin/policyservices.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>TestSerials_CustodianE_PolicyServices</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\CustodianE\Policyservices.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Cust\Policyservices.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Cust\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Cust\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\Cust\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="EmailTemplate\Email.html" />
+    <Content Include="Image\logo-white.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
