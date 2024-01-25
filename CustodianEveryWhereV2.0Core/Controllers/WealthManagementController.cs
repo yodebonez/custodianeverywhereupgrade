@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CustodianEveryWhereV2._0.Controllers
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+
     [ApiController]
     [Route("api/[controller]")]
     public class WealthManagementController : ControllerBase

@@ -17,13 +17,15 @@ namespace CustodianEveryWhereV2._0.Controllers
     [Route("api/[controller]")]
     public class USSDConfigController : ControllerBase
     {
+        private readonly IWebHostEnvironment _hostingEnvironment;
         private static Logger log = LogManager.GetCurrentClassLogger();
         private store<ApiConfiguration> _apiconfig = null;
         private Utility util = null;
-        public USSDConfigController()
+        public USSDConfigController(IWebHostEnvironment hostingEnvironment)
         {
             _apiconfig = new store<ApiConfiguration>();
             util = new Utility();
+            _hostingEnvironment = hostingEnvironment;
         }
 
         [HttpGet("{merchant_id?}")]
@@ -40,8 +42,14 @@ namespace CustodianEveryWhereV2._0.Controllers
                         message = "Permission denied from accessing this feature"
                     };
                 }
-                var config = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/productdescription.json"));
-                var info = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(config);
+
+
+               
+                var rootPath = _hostingEnvironment.ContentRootPath;          
+                var filePath = Path.Combine(rootPath, "Cert", "productdescription.json");             
+                var config = System.IO.File.ReadAllText(filePath);
+
+                 var info = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(config);
                 return new
                 {
                     status = 200,

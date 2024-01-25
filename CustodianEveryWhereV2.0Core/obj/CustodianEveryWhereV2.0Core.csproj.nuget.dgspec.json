@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yodeb\\Downloads\\migrate-api-master (1)\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj": {}
+    "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yodeb\\Downloads\\migrate-api-master (1)\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj": {
+    "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yodeb\\Downloads\\migrate-api-master (1)\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj",
+        "projectUniqueName": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj",
         "projectName": "CustodianEveryWhereV2.0Core",
-        "projectPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master (1)\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj",
+        "projectPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj",
         "packagesPath": "C:\\Users\\yodeb\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master (1)\\migrate-api-master\\CustodianEveryWhereV2.0Core\\obj\\",
+        "outputPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\CustodianEveryWhereV2.0Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,7 +32,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DapperLayer\\DapperLayer.csproj": {
+                "projectPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DapperLayer\\DapperLayer.csproj"
+              },
+              "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DataStore\\DataStore.csproj": {
+                "projectPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DataStore\\DataStore.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -102,6 +109,40 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DapperLayer\\DapperLayer.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DapperLayer\\DapperLayer.csproj",
+        "projectName": "DapperLayer",
+        "projectPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DapperLayer\\DapperLayer.csproj",
+        "frameworks": {
+          "net452": {
+            "projectReferences": {
+              "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DataStore\\DataStore.csproj": {
+                "projectPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DataStore\\DataStore.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net452": {}
+      }
+    },
+    "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DataStore\\DataStore.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DataStore\\DataStore.csproj",
+        "projectName": "DataStore",
+        "projectPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DataStore\\DataStore.csproj",
+        "frameworks": {
+          "net452": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net452": {}
       }
     }
   }

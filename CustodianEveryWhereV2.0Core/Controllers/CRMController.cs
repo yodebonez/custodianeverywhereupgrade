@@ -11,12 +11,11 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
-using CustodianEveryWhereV2._0.ActionFilters;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CustodianEveryWhereV2._0.Controllers
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+   
     [ApiController]
     [Route("api/[controller]")]
     public class CRMController : ControllerBase
@@ -34,7 +33,7 @@ namespace CustodianEveryWhereV2._0.Controllers
         }
 
         [HttpGet("{merchant_id?}/{page?}")]
-        [GzipCompression]
+       // [GzipCompression]
         public async Task<dynamic> GetPrediction(string merchant_id, int page = 1)
         {
             try
@@ -112,7 +111,7 @@ namespace CustodianEveryWhereV2._0.Controllers
         }
 
         [HttpGet("{query?}/{merchant_id?}/{page?}")]
-        [GzipCompression]
+       // [GzipCompression]
         public async Task<dynamic> SearchPrediction(string query, string merchant_id, int page = 1)
         {
             try
@@ -190,7 +189,7 @@ namespace CustodianEveryWhereV2._0.Controllers
         }
 
         [HttpGet("{customer_id?}/{merchant_id?}")]
-        [GzipCompression]
+       // [GzipCompression]
         public async Task<dynamic> GetCurrentAndRecommendedProducts(int customer_id, string merchant_id)
         {
             try
@@ -249,7 +248,7 @@ namespace CustodianEveryWhereV2._0.Controllers
         }
 
         [HttpPost("{renewalRatio?}")]
-        [GzipCompression]
+       // [GzipCompression]
         public async Task<dynamic> GetRenewalRatio(RenewalRatio renewalRatio)
         {
             try
@@ -309,7 +308,7 @@ namespace CustodianEveryWhereV2._0.Controllers
         }
 
         [HttpPost("{renewalRatio?}")]
-        [GzipCompression]
+       // [GzipCompression]
         public async Task<dynamic> GetNextRenewal(RenewalRatio renewalRatio)
         {
             try

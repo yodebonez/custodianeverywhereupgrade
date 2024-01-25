@@ -1,0 +1,10 @@
+C:\Users\yodeb\Downloads\migrate-api-master\CustodianEveryWhereV2.0Core\obj\Release\net6.0\CustodianEveryWhereV2.0Core.csproj.AssemblyReference.cache
+C:\Users\yodeb\Downloads\migrate-api-master\CustodianEveryWhereV2.0Core\obj\Release\net6.0\CustodianEveryWhereV2.0Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yodeb\Downloads\migrate-api-master\CustodianEveryWhereV2.0Core\obj\Release\net6.0\CustodianEveryWhereV2.0Core.AssemblyInfoInputs.cache
+C:\Users\yodeb\Downloads\migrate-api-master\CustodianEveryWhereV2.0Core\obj\Release\net6.0\CustodianEveryWhereV2.0Core.AssemblyInfo.cs
+C:\Users\yodeb\Downloads\migrate-api-master\CustodianEveryWhereV2.0Core\obj\Release\net6.0\CustodianEveryWhereV2.0Core.csproj.CoreCompileInputs.cache
+C:\Users\yodeb\Downloads\migrate-api-master\CustodianEveryWhereV2.0Core\obj\Release\net6.0\CustodianEveryWhereV2.0Core.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yodeb\Downloads\migrate-api-master\CustodianEveryWhereV2.0Core\obj\Release\net6.0\CustodianEveryWhereV2.0Core.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yodeb\Downloads\migrate-api-master\CustodianEveryWhereV2.0Core\obj\Release\net6.0\CustodianEveryWhereV2.0Core.RazorAssemblyInfo.cache
+C:\Users\yodeb\Downloads\migrate-api-master\CustodianEveryWhereV2.0Core\obj\Release\net6.0\CustodianEveryWhereV2.0Core.RazorAssemblyInfo.cs
+C:\Users\yodeb\Downloads\migrate-api-master\CustodianEveryWhereV2.0Core\obj\Release\net6.0\CustodianEveryWhereV2.0Core.sourcelink.json

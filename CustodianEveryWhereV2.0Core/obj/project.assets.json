@@ -1324,6 +1324,27 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "DapperLayer/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "DataStore": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DapperLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DapperLayer.dll": {}
+        }
+      },
+      "DataStore/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/DataStore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DataStore.dll": {}
+        }
       }
     }
   },
@@ -4425,10 +4446,22 @@
         "yarp.reverseproxy.2.0.1.nupkg.sha512",
         "yarp.reverseproxy.nuspec"
       ]
+    },
+    "DapperLayer/1.0.0": {
+      "type": "project",
+      "path": "../DapperLayer/DapperLayer.csproj",
+      "msbuildProject": "../DapperLayer/DapperLayer.csproj"
+    },
+    "DataStore/1.0.0": {
+      "type": "project",
+      "path": "../DataStore/DataStore.csproj",
+      "msbuildProject": "../DataStore/DataStore.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DapperLayer >= 1.0.0",
+      "DataStore >= 1.0.0",
       "EntityFramework >= 6.4.4",
       "FreeSpire.Doc >= 11.6.0",
       "JWT >= 8.2.2",
@@ -4446,11 +4479,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yodeb\\Downloads\\migrate-api-master (1)\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj",
+      "projectUniqueName": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj",
       "projectName": "CustodianEveryWhereV2.0Core",
-      "projectPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master (1)\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj",
+      "projectPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\CustodianEveryWhereV2.0Core\\CustodianEveryWhereV2.0Core.csproj",
       "packagesPath": "C:\\Users\\yodeb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master (1)\\migrate-api-master\\CustodianEveryWhereV2.0Core\\obj\\",
+      "outputPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\CustodianEveryWhereV2.0Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4471,7 +4504,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DapperLayer\\DapperLayer.csproj": {
+              "projectPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DapperLayer\\DapperLayer.csproj"
+            },
+            "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DataStore\\DataStore.csproj": {
+              "projectPath": "C:\\Users\\yodeb\\Downloads\\migrate-api-master\\DataStore\\DataStore.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

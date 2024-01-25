@@ -17,10 +17,11 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
 
 namespace CustodianEveryWhereV2._0.Controllers
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+
     [ApiController]
     [Route("api/[controller]")]
     public class AgentController : ControllerBase

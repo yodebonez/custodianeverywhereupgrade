@@ -16,20 +16,24 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CustodianEveryWhereV2._0.Controllers
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+ 
     [ApiController]
     [Route("api/[controller]")]
     public class WealthPlusController : ControllerBase
     {
+        private readonly IConfiguration _configuration;
+        private readonly IWebHostEnvironment _hostingEnvironment;
         private static Logger log = LogManager.GetCurrentClassLogger();
         private store<ApiConfiguration> _apiconfig = null;
         private Utility util = null;
         private store<WealthPlus> _Buy = null;
-        public WealthPlusController()
+        public WealthPlusController(IWebHostEnvironment hostingEnvironment, IConfiguration configuration)
         {
             _apiconfig = new store<ApiConfiguration>();
             util = new Utility();
             _Buy = new store<WealthPlus>();
+            _hostingEnvironment = hostingEnvironment;
+            _configuration = configuration;
         }
 
 
@@ -58,8 +62,12 @@ namespace CustodianEveryWhereV2._0.Controllers
                     };
                 }
 
-                var productDetails = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/TravelCategoryJSON/WealthPlusDetails.json"));
-                var details = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(productDetails);
+              
+                var rootPath = _hostingEnvironment.ContentRootPath;              
+                var filePath = Path.Combine(rootPath, "Cert", "WealthPlusDetails.json");
+                var productDetails = System.IO.File.ReadAllText(filePath);
+
+                 var details = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(productDetails);
                 return new res
                 {
                     status = 200,
@@ -157,11 +165,12 @@ namespace CustodianEveryWhereV2._0.Controllers
                     Title = wealthPlus.Title
                 };
 
-                var filepath = $"{ConfigurationManager.AppSettings["DOC_PATH"]}/Documents/WealthPlus/{saveData.ImagePath}";
+                var filepath = $"{System.Configuration.ConfigurationManager.AppSettings["DOC_PATH"]}/Documents/WealthPlus/{saveData.ImagePath}";
                 try
                 {
                     byte[] content = Convert.FromBase64String(wealthPlus.ImageInBase64);
-                    File.WriteAllBytes(filepath, content);
+                    System.IO.File.WriteAllBytes(filepath, content);
+                   
                 }
                 catch (Exception ex)
                 {
@@ -177,6 +186,8 @@ namespace CustodianEveryWhereV2._0.Controllers
 
                 if (await _Buy.Save(saveData))
                 {
+
+
                     var path = HttpContext.Current.Server.MapPath("~/Cert/wealthplus.html");
                     var imagepath = HttpContext.Current.Server.MapPath("~/Images/logo-white.png");
                     var template = System.IO.File.ReadAllText(path);

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CustodianEveryWhereV2.0Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5bb679b62480e683cf2ef11baeff36602a2148bb")]
 [assembly: System.Reflection.AssemblyProductAttribute("CustodianEveryWhereV2.0Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CustodianEveryWhereV2.0Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,12 +1,10 @@
 ﻿using CustodianEmailSMSGateway.Email;
 using CustodianEmailSMSGateway.SMS;
-using CustodianEveryWhereV2._0.ActionFilters;
 using DapperLayer.Dapper.Core;
 using DataStore.Models;
 using DataStore.repository;
 using DataStore.Utilities;
 using DataStore.ViewModels;
-using Hangfire;
 using NLog;
 using System;
 using System.Collections.Generic;
@@ -17,25 +15,29 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Cors;
+using ActionFilter;
 
 namespace CustodianEveryWhereV2._0.Controllers
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+   
     [ApiController]
     [Route("api/[controller]")]
     public class PolicyServicesController : ControllerBase
     {
+        private readonly IWebHostEnvironment _hostingEnvironment;
         private static Logger log = LogManager.GetCurrentClassLogger();
         private Utility util = null;
         private store<ApiConfiguration> _apiconfig = null;
         private store<PolicyServicesDetails> policyService = null;
         private Core<policyInfo> _policyinfo = null;
-        public PolicyServicesController()
+        public PolicyServicesController(IWebHostEnvironment hostingEnvironment)
         {
             util = new Utility();
             _apiconfig = new store<ApiConfiguration>();
             policyService = new store<PolicyServicesDetails>();
             _policyinfo = new Core<policyInfo>();
+            _hostingEnvironment = hostingEnvironment;
         }
 
         [HttpPost("{policy?}")]
@@ -123,11 +125,18 @@ namespace CustodianEveryWhereV2._0.Controllers
 
                 var generate_otp = await util.GenerateOTP(false, email?.Trim() ?? phone?.Trim(), "POLICYSERVICE", Platforms.ADAPT);
                 string messageBody = $"Adapt Policy Services authentication code <br/><br/><h2><strong>{generate_otp}</strong></h2>";
-                var template = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/Adapt.html"));
+
+
+                var rootPath = _hostingEnvironment.ContentRootPath;
+                var filePath = Path.Combine(rootPath, "Cert", "Adapt.html");
+                var template = System.IO.File.ReadAllText(filePath);
+               
                 StringBuilder sb = new StringBuilder(template);
                 sb.Replace("#CONTENT#", messageBody);
                 sb.Replace("#TIMESTAMP#", string.Format("{0:F}", DateTime.Now));
-                var imagepath = HttpContext.Current.Server.MapPath("~/Images/adapt_logo.png");
+
+                var imagepath = Path.Combine(rootPath, "Images", "adapt_logo.png");
+             
                 List<string> cc = new List<string>();
                 //cc.Add("technology@custodianplc.com.ng");
                 //use handfire
@@ -696,11 +705,20 @@ namespace CustodianEveryWhereV2._0.Controllers
 
                 var generate_otp = await util.GenerateOTP(false, checkuser.email?.ToLower() ?? checkuser.phonenumber, "POLICYSERVICE", Platforms.ADAPT);
                 string messageBody = $"Adapt Policy Services authentication code <br/><br/><h2><strong>{generate_otp}</strong></h2>";
-                var template = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/Adapt.html"));
+
+
+            
+                var rootPath = _hostingEnvironment.ContentRootPath;           
+                var filePath = Path.Combine(rootPath, "Cert", "Adapt.html");              
+                var template = System.IO.File.ReadAllText(filePath);
+                
                 StringBuilder sb = new StringBuilder(template);
                 sb.Replace("#CONTENT#", messageBody);
                 sb.Replace("#TIMESTAMP#", string.Format("{0:F}", DateTime.Now));
-                var imagepath = HttpContext.Current.Server.MapPath("~/Images/adapt_logo.png");
+               
+                var imagepath = Path.Combine(rootPath,  "Images", "adapt_logo.png");
+
+
                 List<string> bcc = new List<string>();
                 // bcc.Add("technology@custodianplc.com.ng");
                 //use handfire

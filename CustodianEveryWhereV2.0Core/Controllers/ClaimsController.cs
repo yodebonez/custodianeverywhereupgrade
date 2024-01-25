@@ -1,4 +1,4 @@
-﻿using CustodianEveryWhereV2._0.ActionFilters;
+﻿
 using DataStore.Models;
 using DataStore.repository;
 using DataStore.Utilities;
@@ -16,26 +16,31 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web;
 using Microsoft.AspNetCore.Mvc;
+using System.Text.Json;
 
 namespace CustodianEveryWhereV2._0.Controllers
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+   
     [ApiController]
     [Route("api/[controller]")]
     public class ClaimsController : ControllerBase
     {
+        private readonly IWebHostEnvironment _hostingEnvironment;
+        private readonly IConfiguration _config;
         private static Logger log = LogManager.GetCurrentClassLogger();
         private store<ApiConfiguration> _apiconfig = null;
         private store<LifeClaims> _claims = null;
         private Utility util = null;
         private store<GeneralClaims> __nonlifeclaim = null;
         private store<TempClaimData> tempStore = null;
-        public ClaimsController()
+        public ClaimsController(IConfiguration config, IWebHostEnvironment hostingEnvironment)
         {
             _apiconfig = new store<ApiConfiguration>();
             util = new Utility();
             _claims = new store<LifeClaims>();
             __nonlifeclaim = new store<GeneralClaims>();
+            _config = config;
+            _hostingEnvironment = hostingEnvironment;
         }
 
         [HttpPost("{claims?}")]
@@ -122,7 +127,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     foreach (var item in claims.documents)
                     {
                         var nameurl = $"{await new Utility().GetSerialNumber()}_{DateTime.Now.ToFileTimeUtc().ToString()}_{save_claims.policy_number.Replace('/', '-')}_{item.name}.{item.extension}";
-                        var filepath = $"{ConfigurationManager.AppSettings["DOC_PATH"]}/Documents/Life/{nameurl}";
+                        var filepath = $"{_config["DOC_PATH"]}/Documents/Life/{nameurl}";
                         var newdocs = new LifeDocument
                         {
                             path = nameurl,
@@ -131,14 +136,31 @@ namespace CustodianEveryWhereV2._0.Controllers
                         };
                         docs.Add(newdocs);
                         byte[] content = Convert.FromBase64String(item.data);
-                        File.WriteAllBytes(filepath, content);
+                        System.IO.File.WriteAllBytes(filepath, content);
+                       // File.WriteAllBytes(filepath, content);
                     }
                     save_claims.LifeDocument = docs;
                 }
                 await _claims.Save(save_claims);
-                var path = HttpContext.Current.Server.MapPath("~/Cert/claims.html");
-                var imagepath = HttpContext.Current.Server.MapPath("~/Images/logo-white.png");
-                var template = System.IO.File.ReadAllText(path);
+
+
+
+                var rootPath = _hostingEnvironment.ContentRootPath;
+
+               
+                var filePath = Path.Combine(rootPath, "Cert", "claims.html");
+
+                // Read the file content
+                var template = System.IO.File.ReadAllText(filePath);
+
+
+             
+                
+
+                // Combine the root path with the relative path to your file
+                var imagepath = Path.Combine(rootPath, "wwwroot", "Images", "logo-white.png");
+
+
                 // claims
                 claims.claim_number = claim_no;
 
@@ -153,11 +175,22 @@ namespace CustodianEveryWhereV2._0.Controllers
                     }
                 }
 
-                var divisionn_obj = Newtonsoft.Json.JsonConvert.DeserializeObject<List<DivisionEmail>>(File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/json.json")));
+              
+
+                // Combine the root path with the relative path to your file
+                var CerfilePath = Path.Combine(rootPath, "Cert", "json.json");
+
+                // Read the file content
+                var jsonContent = System.IO.File.ReadAllText(CerfilePath);
+
+                // Deserialize the JSON to a List<DivisionEmail>
+                var divisionn_obj = JsonSerializer.Deserialize<List<DivisionEmail>>(jsonContent);
+
+
                 var div_email = divisionn_obj.FirstOrDefault(x => x.Code.ToUpper() == "LIFE").Email;
                 log.Info($"about to send mail to division {div_email}");
                 //send mail to custodian
-                Task.Factory.StartNew(() =>
+              await  Task.Factory.StartNew(() =>
                 {
                     util.SendMail(claims, true, template, imagepath, div_email);
                 });
@@ -166,7 +199,7 @@ namespace CustodianEveryWhereV2._0.Controllers
 
                 if (!Config.isDemo)
                 {
-                    Task.Factory.StartNew(() =>
+                   await Task.Factory.StartNew(async () =>
                     {
                         util.SendMail(claims, false, template, imagepath);
                     });
@@ -300,7 +333,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     foreach (var item in claims.documents)
                     {
                         var nameurl = $"{await new Utility().GetSerialNumber()}_{DateTime.Now.ToFileTimeUtc().ToString()}_{newClaims.policy_number.Replace('/', '-')}_{item.name}.{item.extension}";
-                        var filepath = $"{ConfigurationManager.AppSettings["DOC_PATH"]}/Documents/General/{nameurl?.Replace('/', '-')}";
+                        var filepath = $"{_config["DOC_PATH"]}/Documents/General/{nameurl?.Replace('/', '-')}";
                         var newdocs = new NonLifeClaimsDocument
                         {
                             path = nameurl,
@@ -310,7 +343,10 @@ namespace CustodianEveryWhereV2._0.Controllers
 
                         docs.Add(newdocs);
                         byte[] content = Convert.FromBase64String(item.data);
-                        File.WriteAllBytes(filepath, content);
+
+                        System.IO.File.WriteAllBytes(filepath, content);
+
+                       // File.WriteAllBytes(filepath, content);
                     }
 
                     newClaims.NonLifeDocument = docs;
@@ -318,9 +354,16 @@ namespace CustodianEveryWhereV2._0.Controllers
                 claims.claims_number = claim_number;
                 newClaims.claims_number = claim_number;
                 await __nonlifeclaim.Save(newClaims);
-                var path = HttpContext.Current.Server.MapPath("~/Cert/claims.html");
-                var imagepath = HttpContext.Current.Server.MapPath("~/Images/logo-white.png");
-                var template = System.IO.File.ReadAllText(path);
+
+
+              
+                var rootPath = _hostingEnvironment.ContentRootPath;              
+                var filePath = Path.Combine(rootPath, "Cert", "claims.html");            
+                var template = System.IO.File.ReadAllText(filePath);
+
+                // Combine the root path with the relative path to your file
+                var imagepath = Path.Combine(rootPath,  "Images", "logo-white.png");
+               
                 string email_division = string.Empty;
                 var divisionn_obj = Newtonsoft.Json.JsonConvert.DeserializeObject<List<DivisionEmail>>(System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/json.json")));
                 if (claims.division.ToUpper() == "BRANCH")
@@ -343,14 +386,14 @@ namespace CustodianEveryWhereV2._0.Controllers
                     }
                 }
 
-                Task.Factory.StartNew(() =>
+               await Task.Factory.StartNew(() =>
                 {
                     util.SendMail(claims, true, template, imagepath, email_division);
                 });
 
                 if (!Config.isDemo)
                 {
-                    Task.Factory.StartNew(() =>
+                   await Task.Factory.StartNew(() =>
                     {
 
                         util.SendMail(claims, false, template, imagepath);
@@ -752,7 +795,7 @@ namespace CustodianEveryWhereV2._0.Controllers
         }
 
         [HttpGet("{merchant_id?}/{policy_number?}")]
-        [GzipCompression]
+       // [GzipCompression]
         public async Task<claims_details> GetTempSaveClaim(string merchant_id, string policy_number)
         {
             try
