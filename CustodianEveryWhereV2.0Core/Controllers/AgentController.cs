@@ -32,13 +32,19 @@ namespace CustodianEveryWhereV2._0.Controllers
         private store<AgentTransactionLogs> trans_logs = null;
         private Core<policyInfo> _policyinfo = null;
         private store<AgentServices> _agent = null;
-        public AgentController()
+        private readonly IHttpContextAccessor _httpContextAccessor;
+        private readonly IWebHostEnvironment _hostingEnvironment;
+        private readonly IConfiguration _configuration;
+        public AgentController(IHttpContextAccessor httpContextAccessor, IWebHostEnvironment hostingEnvironment, IConfiguration configuration)
         {
             _apiconfig = new store<ApiConfiguration>();
             util = new Utility();
             trans_logs = new store<AgentTransactionLogs>();
             _policyinfo = new Core<policyInfo>();
             _agent = new store<AgentServices>();
+            _httpContextAccessor = httpContextAccessor;
+            _hostingEnvironment = hostingEnvironment;
+            _configuration = configuration;
         }
 
         [HttpPost("{pol_detials?}")]
@@ -55,7 +61,11 @@ namespace CustodianEveryWhereV2._0.Controllers
                         message = "All request parameters are mandatory"
                     };
                 }
-                var headerValues = HttpContext.Current.Request.Headers.Get("Authorization");
+
+                // Get the "Authorization" header from the request
+                string headerValues = _httpContextAccessor.HttpContext.Request.Headers["Authorization"];
+
+              
 
                 if (string.IsNullOrEmpty(headerValues))
                 {
@@ -357,7 +367,10 @@ namespace CustodianEveryWhereV2._0.Controllers
                     };
                 }
 
-                var headerValues = HttpContext.Current.Request.Headers.Get("Authorization");
+              
+                // Get the "Authorization" header from the request
+                string headerValues = _httpContextAccessor.HttpContext.Request.Headers["Authorization"];
+
 
                 if (string.IsNullOrEmpty(headerValues))
                 {
@@ -479,6 +492,8 @@ namespace CustodianEveryWhereV2._0.Controllers
                     }
                     await trans_logs.Save(new_trans);
                     //http://41.216.175.114/WebPortal/Receipt.aspx?mUser=CUST_WEB&mCert={}&mCert2={}
+
+                    var url = _configuration["MySettings:ApiKey"];
                     var url = ConfigurationManager.AppSettings["RecieptBaseUrl"];
                     if (!string.IsNullOrEmpty(post.phone_no))
                     {
@@ -531,7 +546,9 @@ namespace CustodianEveryWhereV2._0.Controllers
         {
             try
             {
-                var headerValues = HttpContext.Current.Request.Headers.Get("Authorization");
+                // Get the "Authorization" header from the request
+                string headerValues = _httpContextAccessor.HttpContext.Request.Headers["Authorization"];
+
 
                 if (string.IsNullOrEmpty(headerValues))
                 {
@@ -805,7 +822,14 @@ namespace CustodianEveryWhereV2._0.Controllers
                 if (!string.IsNullOrEmpty(aemail))
                 {
                     string messageBody = $"Adapt Policy Services authentication code <br/><br/><h2><strong>{generate_otp}</strong></h2>";
-                    var template = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/Adapt.html"));
+                   // var template = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/Adapt.html"));
+
+                    string filePath = Path.Combine(_hostingEnvironment.WebRootPath, "Cert", "Adapt.html");
+
+                    // Read the contents of the file
+                    string template = System.IO.File.ReadAllText(filePath);
+
+
                     StringBuilder sb = new StringBuilder(template);
                     sb.Replace("#CONTENT#", messageBody);
                     sb.Replace("#TIMESTAMP#", string.Format("{0:F}", DateTime.Now));
@@ -1128,11 +1152,20 @@ namespace CustodianEveryWhereV2._0.Controllers
                 }
 
                 string messageBody = $"Adapt Policy Services authentication code <br/><br/><h2><strong>{generate_otp}</strong></h2>";
-                var template = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/Adapt.html"));
+                
+
+                // Get the path to the file using the web root path
+                string filePath = Path.Combine(_hostingEnvironment.WebRootPath, "Cert", "Adapt.html");
+
+                // Read the contents of the file
+                string template = System.IO.File.ReadAllText(filePath);
+
                 StringBuilder sb = new StringBuilder(template);
                 sb.Replace("#CONTENT#", messageBody);
                 sb.Replace("#TIMESTAMP#", string.Format("{0:F}", DateTime.Now));
-                var imagepath = HttpContext.Current.Server.MapPath("~/Images/adapt_logo.png");
+                 // Get the path to the file using the web root path
+                string imagePath = Path.Combine(_hostingEnvironment.WebRootPath, "Images", "adapt_logo.png");
+
                 List<string> bcc = new List<string>();
                 // bcc.Add("technology@custodianplc.com.ng");
                 //use handfire
@@ -1145,7 +1178,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     new SendEmail().Send_Email(email,
                           $"Adapt-PolicyServices PIN Reset {test}",
                           sb.ToString(), $"Adapt-PolicyServices PIN Reset {test}",
-                          true, imagepath, null, null, null);
+                          true, imagePath, null, null, null);
                 }
 
                 if (!Config.isDemo)

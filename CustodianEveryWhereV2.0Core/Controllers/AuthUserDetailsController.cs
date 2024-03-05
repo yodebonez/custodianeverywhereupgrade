@@ -21,17 +21,20 @@ namespace CustodianEveryWhereV2._0.Controllers
     [Route("api/[controller]")]
     public class AuthUserDetailsController : ControllerBase
     {
+        private readonly IWebHostEnvironment _hostingEnvironment;
+
         private static Logger log = LogManager.GetCurrentClassLogger();
         private store<ApiConfiguration> _apiconfig = null;
         private Utility util = null;
         private store<AdaptLeads> auth_user = null;
         private store<SessionTokenTracker> session = null;
-        public AuthUserDetailsController()
+        public AuthUserDetailsController(IWebHostEnvironment hostingEnvironment)
         {
             _apiconfig = new store<ApiConfiguration>();
             util = new Utility();
             auth_user = new store<AdaptLeads>();
             session = new store<SessionTokenTracker>();
+            _hostingEnvironment = hostingEnvironment;
         }
 
         [HttpPost("{auth_deatils?}")]
@@ -109,7 +112,14 @@ namespace CustodianEveryWhereV2._0.Controllers
                 updates update = null;
                 try
                 {
-                    string getFile = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/TravelCategoryJSON/AppUpdate.json"));
+
+                    // Combine the base path with the relative path to the file
+                    string filePath = Path.Combine(_hostingEnvironment.ContentRootPath, "TravelCategoryJSON", "AppUpdate.json");
+
+                    // Read the contents of the file
+                    string getFile = System.IO.File.ReadAllText(filePath);
+
+                  //  string getFile = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/TravelCategoryJSON/AppUpdate.json"));
                     update = Newtonsoft.Json.JsonConvert.DeserializeObject<updates>(getFile);
                 }
                 catch (Exception ex)
@@ -196,7 +206,15 @@ namespace CustodianEveryWhereV2._0.Controllers
                         message = "Invalid merchant Id"
                     };
                 }
-                string getFile = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/TravelCategoryJSON/AppUpdate.json"));
+               // string getFile = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/TravelCategoryJSON/AppUpdate.json"));
+
+                // Combine the base path with the relative path to the file
+                string filePath = Path.Combine(_hostingEnvironment.ContentRootPath, "TravelCategoryJSON", "AppUpdate.json");
+
+                // Read the contents of the file
+                string getFile = System.IO.File.ReadAllText(filePath);
+
+
                 var update = Newtonsoft.Json.JsonConvert.DeserializeObject<updates>(getFile);
                 if (platforms == AppPlatform.Andriod)
                 {
@@ -308,7 +326,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     var request = await api.PostAsync(GlobalConstant.AD_AUTHENTICATE, content);
                     if (request.IsSuccessStatusCode)
                     {
-                        var response = await request.Content.ReadAsAsync<Dictionary<string, string>>();
+                        var response = await request.Content.ReadFromJsonAsync<Dictionary<string, string>>();
                         using (var api2 = new HttpClient())
                         {
                             log.Info($"Resposne from Azure authentication {response}");
@@ -316,7 +334,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                             var request2 = await api2.GetAsync(GlobalConstant.AD_GRAPH);
                             if (request2.IsSuccessStatusCode)
                             {
-                                var response2 = await request2.Content.ReadAsAsync<dynamic>();
+                                var response2 = await request2.Content.ReadFromJsonAsync<dynamic>();
                                 user_email = response2["mail"];
                                 return new notification_response
                                 {
@@ -343,7 +361,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     }
                     else
                     {
-                        var response = await request.Content.ReadAsAsync<dynamic>();
+                        var response = await request.Content.ReadFromJsonAsync<dynamic>();
                         return new notification_response
                         {
                             status = 406,

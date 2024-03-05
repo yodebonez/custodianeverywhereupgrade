@@ -188,10 +188,18 @@ namespace CustodianEveryWhereV2._0.Controllers
                 {
 
 
-                    var path = HttpContext.Current.Server.MapPath("~/Cert/wealthplus.html");
-                    var imagepath = HttpContext.Current.Server.MapPath("~/Images/logo-white.png");
-                    var template = System.IO.File.ReadAllText(path);
-                    new Utility().SendWealthPlusMail(wealthPlus, true, template, imagepath, filepath, "");
+                  
+                    // Map path for HTML file
+                    string htmlFilePath = Path.Combine(_hostingEnvironment.WebRootPath, "Cert", "wealthplus.html");
+
+                    // Map path for image file
+                    string imagePath = Path.Combine(_hostingEnvironment.WebRootPath, "Images", "logo-white.png");
+
+
+
+
+                    var template = System.IO.File.ReadAllText(htmlFilePath);
+                    new Utility().SendWealthPlusMail(wealthPlus, true, template, imagePath, filepath, "");
                     return new res
                     {
                         status = 200,

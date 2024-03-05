@@ -25,12 +25,17 @@ namespace CustodianEveryWhereV2._0.Controllers
         private Utility util = null;
         private store<BuyTrackerDevice> track = null;
         private store<TelematicsUsers> telematics_user = null;
-        public CarTrackingController()
+        private readonly IWebHostEnvironment _hostingEnvironment;
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        public CarTrackingController(IHttpContextAccessor httpContextAccessor,IWebHostEnvironment webHostEnvironment)
         {
             _apiconfig = new store<ApiConfiguration>();
             util = new Utility();
             track = new store<BuyTrackerDevice>();
             telematics_user = new store<TelematicsUsers>();
+            _httpContextAccessor = httpContextAccessor;
+            _hostingEnvironment = webHostEnvironment;
         }
 
         [HttpGet("{imei?}/{merchant_id?}/{hash?}/{email?}/{password?}")]
@@ -91,7 +96,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     var request = await api.GetAsync(GlobalConstant.base_url + $"getLastStatus?email={GlobalConstant.auth_email}&passcode={GlobalConstant.passcode}&imei={imei}");
                     if (request.IsSuccessStatusCode)
                     {
-                        var response = await request.Content.ReadAsAsync<dynamic>();
+                        var response = await request.Content.ReadFromJsonAsync<dynamic>();
                         log.Info($"Raw response from api {Newtonsoft.Json.JsonConvert.SerializeObject(response)}");
                         if (response.response_code == "00")
                         {
@@ -197,7 +202,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     var request = await api.GetAsync(GlobalConstant.base_url + $"getStatusHistory?email={GlobalConstant.auth_email}&passcode={GlobalConstant.passcode}&imei={imei}&start_date_time={start_date_time}&end_date_time={end_date_time}&pageNo={page}&pageSize=10");
                     if (request.IsSuccessStatusCode)
                     {
-                        var response = await request.Content.ReadAsAsync<dynamic>();
+                        var response = await request.Content.ReadFromJsonAsync<dynamic>();
                         log.Info($"Raw response from api {Newtonsoft.Json.JsonConvert.SerializeObject(response)}");
                         if (response.response_code == "00")
                         {
@@ -300,7 +305,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     var request = await api.GetAsync(GlobalConstant.base_url + $"getAddress?email={GlobalConstant.auth_email}&passcode={GlobalConstant.passcode}&latlng={lat},{lng}");
                     if (request.IsSuccessStatusCode)
                     {
-                        var response = await request.Content.ReadAsAsync<dynamic>();
+                        var response = await request.Content.ReadFromJsonAsync<dynamic>();
                         log.Info($"Raw response from api {Newtonsoft.Json.JsonConvert.SerializeObject(response)}");
                         if (response.response_code == "00")
                         {
@@ -436,7 +441,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     log.Info($"response from halogen buytracker device is {request.StatusCode}");
                     if (request.IsSuccessStatusCode)
                     {
-                        var response = await request.Content.ReadAsAsync<dynamic>();
+                        var response = await request.Content.ReadFromJsonAsync<dynamic>();
                         log.Info($"response object from halogen buytracker device is {Newtonsoft.Json.JsonConvert.SerializeObject(response)}");
                         if (response.response_code == "00")
                         {
@@ -560,7 +565,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     var request = await apicall.GetAsync(GlobalConstant.base_url + $"getCompatibleTrackerTypes?vehicle_year={year}");
                     if (request.IsSuccessStatusCode)
                     {
-                        var response = await request.Content.ReadAsAsync<DevicePricesResponse>();
+                        var response = await request.Content.ReadFromJsonAsync<DevicePricesResponse>();
                         if (response.response_code == "00")
                         {
                             log.Info("loaded successfully");
@@ -685,7 +690,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     var request = await apicall.GetAsync(GlobalConstant.base_url + $"{((state == Car.Start) ? "startCar" : "stopCar")}?email={GlobalConstant.auth_email}&passcode={GlobalConstant.passcode}&imei={imei}");
                     if (request.IsSuccessStatusCode)
                     {
-                        var response = await request.Content.ReadAsAsync<dynamic>();
+                        var response = await request.Content.ReadFromJsonAsync<dynamic>();
                         if (response.response_code == "00")
                         {
                             return new notification_response
@@ -780,7 +785,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     var request = await apicall.GetAsync(GlobalConstant.base_url + $"listenIn?email={GlobalConstant.auth_email}&passcode={GlobalConstant.passcode}&imei={imei}&sos_number={sos_number}");
                     if (request.IsSuccessStatusCode)
                     {
-                        var response = await request.Content.ReadAsAsync<dynamic>();
+                        var response = await request.Content.ReadFromJsonAsync<dynamic>();
                         if (response.response_code == "00")
                         {
                             return new notification_response
@@ -890,7 +895,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                             message = "Secondary verification failed"
                         };
                     }
-                    var response = await request.Content.ReadAsAsync<dynamic>();
+                    var response = await request.Content.ReadFromJsonAsync<dynamic>();
                     if (response.response_code != "00" || response.data == null)
                     {
                         log.Info($"verifying from halogen failed {user.Email}");
@@ -1034,7 +1039,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                         };
                     }
 
-                    var response = await request.Content.ReadAsAsync<dynamic>();
+                    var response = await request.Content.ReadFromJsonAsync<dynamic>();
                     log.Info($"new log {Newtonsoft.Json.JsonConvert.SerializeObject(response)}");
                     if (response.response_code != "00")
                     {
@@ -1059,16 +1064,25 @@ namespace CustodianEveryWhereV2._0.Controllers
 
                     // send OTP to email address
                     string messageBody = $"Adapt Telematics authentication code <br/><br/><h2><strong>{generate_otp}</strong></h2>";
-                    var template = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/Adapt.html"));
+                   // var template = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/Adapt.html"));
+
+
+                    string filePath = Path.Combine(_hostingEnvironment.ContentRootPath, "Cert", "Adapt.html");
+                    var template = System.IO.File.ReadAllText(filePath);
+
+
                     StringBuilder sb = new StringBuilder(template);
                     sb.Replace("#CONTENT#", messageBody);
                     sb.Replace("#TIMESTAMP#", string.Format("{0:F}", DateTime.Now));
-                    var imagepath = HttpContext.Current.Server.MapPath("~/Images/adapt_logo.png");
+                    string imagePath = Path.Combine(_hostingEnvironment.WebRootPath, "Images", "adapt_logo.png");
+
+                    // var imagepath = _httpContextAccessor.HttpContext.Server.MapPath("~/Images/adapt_logo.png");
+
                     await Task.Factory.StartNew(() =>
                     {
                         //  List<string> cc = new List<string>();
                         // cc.Add("technology@custodianplc.com.ng");
-                        new SendEmail().Send_Email(email, "Adapt-Telematics Authentication", sb.ToString(), "Telematics Authentication", true, imagepath, null, null, null);
+                        new SendEmail().Send_Email(email, "Adapt-Telematics Authentication", sb.ToString(), "Telematics Authentication", true, imagePath, null, null, null);
                     });
 
                     log.Info($"Otp was sent successfully to {email}");
@@ -1164,7 +1178,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     }
 
                     //read from  stream
-                    var response = await request.Content.ReadAsAsync<dynamic>();
+                    var response = await request.Content.ReadFromJsonAsync<dynamic>();
                     if (response.response_code != "00")
                     {
                         log.Info("Authentication failed: Hint(Invalid email or password)");
@@ -1177,16 +1191,24 @@ namespace CustodianEveryWhereV2._0.Controllers
 
                     log.Info($"Login successful {userAuth.email}");
                     string messageBody = $"<h3>Authentication was successful on {DateTime.Now.ToString("dddd, dd MMMM yyyy")}</h3>";
-                    var template = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/Adapt.html"));
+                   
+                    string htmlFilePath = Path.Combine(_hostingEnvironment.WebRootPath, "Cert", "Adapt.html");
+
+                    // Read the contents of the file
+                    string template = System.IO.File.ReadAllText(htmlFilePath);
+
+
                     StringBuilder sb = new StringBuilder(template);
                     sb.Replace("#CONTENT#", messageBody);
                     sb.Replace("#TIMESTAMP#", string.Format("{0:F}", DateTime.Now));
-                    var imagepath = HttpContext.Current.Server.MapPath("~/Images/adapt_logo.png");
+                   
+                    string imagePath = Path.Combine(_hostingEnvironment.WebRootPath, "Images", "adapt_logo.png");
+
                     await Task.Factory.StartNew(() =>
                      {
                          List<string> bcc = new List<string>();
                          // bcc.Add("technology@custodianplc.com.ng");
-                         new SendEmail().Send_Email(userAuth.email, "Adapt-Telematics Authentication successful", sb.ToString(), "Telematics Authentication successful", true, imagepath, null, null, null);
+                         new SendEmail().Send_Email(userAuth.email, "Adapt-Telematics Authentication successful", sb.ToString(), "Telematics Authentication successful", true, imagePath, null, null, null);
                      });
 
                     // successful process
@@ -1293,7 +1315,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                         };
                     }
 
-                    var response = await request.Content.ReadAsAsync<dynamic>();
+                    var response = await request.Content.ReadFromJsonAsync<dynamic>();
                     if (response.response_code != "00")
                     {
                         log.Info($"verifying from halogen failed {reset.email}");
@@ -1337,16 +1359,26 @@ namespace CustodianEveryWhereV2._0.Controllers
                     {
                         log.Info($"password reset was successful {reset.email}");
                         string messageBody = $"<h2>Your password reset was successful at {DateTime.Now.ToString("dddd, dd MMMM yyyy")}</h2>";
-                        var template = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/Adapt.html"));
+                       
+                        string htmlFilePath = Path.Combine(_hostingEnvironment.WebRootPath, "Cert", "Adapt.html");
+
+                        // Read the contents of the file
+                        string template = System.IO.File.ReadAllText(htmlFilePath);
+
+
                         StringBuilder sb = new StringBuilder(template);
                         sb.Replace("#CONTENT#", messageBody);
                         sb.Replace("#TIMESTAMP#", string.Format("{0:F}", DateTime.Now));
-                        var imagepath = HttpContext.Current.Server.MapPath("~/Images/adapt_logo.png");
+                      
+
+                        // Map path for image file
+                        string imagePath = Path.Combine(_hostingEnvironment.WebRootPath, "Images", "adapt_logo.png");
+
                         await Task.Factory.StartNew(() =>
                         {
                             List<string> cc = new List<string>();
                             // cc.Add("technology@custodianplc.com.ng");
-                            new SendEmail().Send_Email(reset.email, "Adapt-Telematics Password Reset", sb.ToString(), "Password Reset", true, imagepath, null, null, null);
+                            new SendEmail().Send_Email(reset.email, "Adapt-Telematics Password Reset", sb.ToString(), "Password Reset", true, imagePath, null, null, null);
                         });
 
                         return new notification_response

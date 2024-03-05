@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CustodianEveryWhereV2._0.Controllers
 {
-    [EnableCors(origins: "*", headers: "*", methods: "*")]
+  
     [ApiController]
     [Route("api/[controller]")]
     public class AddonsController : ControllerBase
@@ -22,11 +22,13 @@ namespace CustodianEveryWhereV2._0.Controllers
         private static Logger Log = LogManager.GetCurrentClassLogger();
         private Utility util = null;
         private store<ApiConfiguration> _apiconfig = null;
-        public AddonsController()
+        private readonly IWebHostEnvironment _hostingEnvironment;
+
+        public AddonsController(IWebHostEnvironment hostingEnvironment)
         {
             util = new Utility();
             _apiconfig = new store<ApiConfiguration>();
-
+            _hostingEnvironment = hostingEnvironment;
         }
 
         [HttpGet("{lat?}/{lon?}/{merchant_id?}")]
@@ -119,7 +121,16 @@ namespace CustodianEveryWhereV2._0.Controllers
                     };
                 }
 
-                string getFile = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/TravelCategoryJSON/adds.json"));
+               
+
+                string filePath = Path.Combine(_hostingEnvironment.WebRootPath, "TravelCategoryJSON", "adds.json");
+
+                // Read the contents of the file
+                string getFile = System.IO.File.ReadAllText(filePath);
+
+
+
+
                 var adds = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(getFile);
                 return new res
                 {
@@ -165,7 +176,12 @@ namespace CustodianEveryWhereV2._0.Controllers
                     };
                 }
 
-                string getFile = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/TravelCategoryJSON/product.json"));
+               // string getFile = System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/TravelCategoryJSON/product.json"));
+
+                string filePath = Path.Combine(_hostingEnvironment.ContentRootPath, "TravelCategoryJSON", "product.json");
+                string getFile = System.IO.File.ReadAllText(filePath);
+
+
                 var adds = Newtonsoft.Json.JsonConvert.DeserializeObject<dynamic>(getFile);
                 return new res
                 {

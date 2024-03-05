@@ -93,8 +93,8 @@ namespace CustodianEveryWhereV2._0.Controllers
                 using (var api = new HttpClient())
                 {
                     regno = Regex.Replace(regno, @"\s", "");// remove spaces between text
-                    var api_key = ConfigurationManager.AppSettings["AutoRegAPIKey"];
-                    var url = ConfigurationManager.AppSettings["AutoRegAPIUrl"];
+                    var api_key = System.Configuration.ConfigurationManager.AppSettings["AutoRegAPIKey"];
+                    var url = System.Configuration.ConfigurationManager.AppSettings["AutoRegAPIUrl"];
                     var request = await api.GetAsync($"{url}/{regno}/{api_key}");
                     if (!request.IsSuccessStatusCode)
                     {
@@ -349,7 +349,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                         {
                             var cert_code = request.Replace("**", "|")?.Split('|')[1];
                             var policy_number = request.Replace("**", "|")?.Split('|')[0];
-                            var reciept_base_url = ConfigurationManager.AppSettings["Reciept_Base_Url"];
+                            var reciept_base_url = System.Configuration.ConfigurationManager.AppSettings["Reciept_Base_Url"];
                             cert_number = cert_code;
                             save_new.policyNumber = policy_number;
                             cert_url = $"{reciept_base_url}mUser=CUST_WEB&mCert={cert_code}&mCert2={cert_code}";
@@ -360,9 +360,9 @@ namespace CustodianEveryWhereV2._0.Controllers
                             try
                             {
                                 var nameurl = $"{await new Utility().GetSerialNumber()}_{DateTime.Now.ToFileTimeUtc().ToString()}_{cert_number}.{Auto.extension_type}";
-                                var filepath = $"{ConfigurationManager.AppSettings["DOC_PATH"]}/Documents/Auto/{nameurl}";
+                                var filepath = $"{System.Configuration.ConfigurationManager.AppSettings["DOC_PATH"]}/Documents/Auto/{nameurl}";
                                 byte[] content = Convert.FromBase64String(Auto.attachment);
-                                File.WriteAllBytes(filepath, content);
+                               System.IO.File.WriteAllBytes(filepath, content);
                                 save_new.attachemt = nameurl;
                                 save_new.extension_type = Auto.extension_type;
                             }

@@ -17,6 +17,7 @@ using System.Threading.Tasks;
 using System.Web;
 using Microsoft.AspNetCore.Mvc;
 using System.Text.Json;
+using Newtonsoft.Json;
 
 namespace CustodianEveryWhereV2._0.Controllers
 {
@@ -184,7 +185,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                 var jsonContent = System.IO.File.ReadAllText(CerfilePath);
 
                 // Deserialize the JSON to a List<DivisionEmail>
-                var divisionn_obj = JsonSerializer.Deserialize<List<DivisionEmail>>(jsonContent);
+                var divisionn_obj = System.Text.Json.JsonSerializer.Deserialize<List<DivisionEmail>>(jsonContent);
 
 
                 var div_email = divisionn_obj.FirstOrDefault(x => x.Code.ToUpper() == "LIFE").Email;
@@ -365,7 +366,11 @@ namespace CustodianEveryWhereV2._0.Controllers
                 var imagepath = Path.Combine(rootPath,  "Images", "logo-white.png");
                
                 string email_division = string.Empty;
-                var divisionn_obj = Newtonsoft.Json.JsonConvert.DeserializeObject<List<DivisionEmail>>(System.IO.File.ReadAllText(HttpContext.Current.Server.MapPath("~/Cert/json.json")));
+               
+                var jsonString = System.IO.File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "Cert/json.json"));
+                var divisionn_obj = JsonConvert.DeserializeObject<List<DivisionEmail>>(jsonString);
+
+
                 if (claims.division.ToUpper() == "BRANCH")
                 {
                     email_division = divisionn_obj.FirstOrDefault(x => x.Key.ToUpper() == claims.branch.ToUpper().Trim()).Email;
