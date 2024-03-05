@@ -26,6 +26,9 @@
     <Reference Include="CustodianEmailSMSGateway">
       <HintPath>..\CustodianEveryWhereV2.0\bin\CustodianEmailSMSGateway.dll</HintPath>
     </Reference>
+    <Reference Include="GenerateTransactionCodes">
+      <HintPath>..\CustodianEveryWhereV2.0\bin\GenerateTransactionCodes.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
   <ItemGroup>

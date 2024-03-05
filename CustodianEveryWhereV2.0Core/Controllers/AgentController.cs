@@ -493,8 +493,8 @@ namespace CustodianEveryWhereV2._0.Controllers
                     await trans_logs.Save(new_trans);
                     //http://41.216.175.114/WebPortal/Receipt.aspx?mUser=CUST_WEB&mCert={}&mCert2={}
 
-                    var url = _configuration["MySettings:ApiKey"];
-                    var url = ConfigurationManager.AppSettings["RecieptBaseUrl"];
+                    var url = _configuration["Settings:RecieptBaseUrl"];
+                   
                     if (!string.IsNullOrEmpty(post.phone_no))
                     {
                         var phone = post.phone_no.Trim();
@@ -833,7 +833,8 @@ namespace CustodianEveryWhereV2._0.Controllers
                     StringBuilder sb = new StringBuilder(template);
                     sb.Replace("#CONTENT#", messageBody);
                     sb.Replace("#TIMESTAMP#", string.Format("{0:F}", DateTime.Now));
-                    var imagepath = HttpContext.Current.Server.MapPath("~/Images/adapt_logo.png");
+                    string imagePath = Path.Combine(_hostingEnvironment.WebRootPath, "Images", "adapt_logo.png");
+
                     List<string> cc = new List<string>();
                     // cc.Add("technology@custodianplc.com.ng");  // Todo: move to webconfig 
 
@@ -844,7 +845,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     new SendEmail().Send_Email(email,
                                $"Adapt-PolicyServices Authentication {test}",
                                sb.ToString(), $"PolicyServices Authentication {test}",
-                               true, imagepath, null, null, null);
+                               true, imagePath, null, null, null);
                 }
 
                 if (!Config.isDemo)
@@ -1378,7 +1379,7 @@ namespace CustodianEveryWhereV2._0.Controllers
                     }
                     await trans_logs.Update(getTransaction);
                     //http://41.216.175.114/WebPortal/Receipt.aspx?mUser=CUST_WEB&mCert={}&mCert2={}
-                    var url = ConfigurationManager.AppSettings["RecieptBaseUrl"];
+                    var url = _configuration["Settings:RecieptBaseUrl"];
                     if (!string.IsNullOrEmpty(getTransaction.phone_no))
                     {
                         var phone = getTransaction.phone_no.Trim();

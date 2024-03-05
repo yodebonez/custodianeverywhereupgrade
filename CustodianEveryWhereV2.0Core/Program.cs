@@ -1,5 +1,7 @@
 
 
+using Microsoft.AspNetCore.ResponseCompression;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSystemWebAdapters();
 builder.Services.AddHttpForwarder();
@@ -13,6 +15,13 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+  builder. Services.AddResponseCompression(options =>
+{
+    options.EnableForHttps = true;
+    options.Providers.Add<GzipCompressionProvider>();
+});
+
 
 
 builder.Services.AddCors(options =>
@@ -37,7 +46,12 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
+
+
+
 app.UseHttpsRedirection();
+
+app.UseResponseCompression();
 
 app.UseAuthorization();
 app.UseSystemWebAdapters();
